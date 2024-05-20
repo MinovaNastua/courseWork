@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+.deskTop{
+    width: 100%;
+    background-color: #B0947B;
+    display: flex;
+    flex-direction: column;
+    
+}
+.overlay {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+  }
+  
+
+.mainBlockFon{
+    width: 100%;
+    height: 762px;
+ background-image: url(C:/веб/course/fotoForProject/mainFon.jpg);
+ background-size: cover;
+ background-position: center;
+ transition: all 1S;
+}
+
+.headMenu{
+height: 10%;
+background: #B0947B;
+opacity: 0.75;
+display: flex;
+justify-content: space-between;
+transition: all 1S;
+}
+
+.leftElementBlock {
+    width: 74px;
+    height: 90%;
+    background: #B0947B;
+    opacity: 0.75;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    transition:  width 0.3s ease; 
+    transition: all 1S;
+}
+
+.fourElementsInMain {
+    display: flex;
+    height: 44%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32%;
+    justify-content: space-between;
+}
+
+
+.menuPoint {
+    display: flex;
+    flex-basis: 37%;
+    justify-content: space-between;
+    margin-left: 1%;
+    align-items: center;
+}
+
+.menuPointRight {
+    display: flex;
+    flex-basis: 21%;
+    margin-right: 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuPointText{
+font-family: 'Poiret One';
+font-style: normal;
+font-weight: 400;
+font-size: 186%;
+line-height: 117.16%;
+letter-spacing: 0.14em;
+color: #E6E9EE;
+}
+
+.vkElement{
+    width: 35px;
+    height: 35px;
+}
+
+.telegramElement{
+    width: 37px;
+    height: 37px;
+}
+
+.headerTextBig {
+    left: 16.5%;
+    position: relative;
+    font-family: 'Poiret One';
+    width: 70%;
+    font-style: normal;
+    font-weight: 400;
+    top: -55%;
+    text-align: center;
+    font-size: 395%;
+    letter-spacing: 0.12em;
+    color: #131F45;
+    transition: all 1S;
+}
+
+
+
+.headerTextSmall {
+    position: relative;
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 236%;
+    width: 39%;
+    top: -62%;
+    text-align: center;
+    left: 43%;
+    letter-spacing: 0.01em;
+    color: #2F3F6B;
+    transition: all 1S;
+}
+
+.tub{
+    width: 22px;
+}
+
+.burgerMenuInMain{
+    width: 50px;
+    height: 50px;
+    display: none;
+    
+    background:none;
+  border-color:rgba(255, 255, 255, 0);
+  transition: transform 0.3s ease; 
+}
+
+.navbar{
+    
+    display:none;
+    position: relative;
+    left:  -6%;
+    height: 50%;
+    flex-direction: column;
+    display:none;
+}
+
+.rotate {
+    transform: rotate(90deg);
+  }
+
+  .loginWindow{
+        width: 80%;
+        opacity: 0;
+        visibility: hidden;
+        height: 587px;
+        position: fixed;
+        top: 14%;
+        left: 13%;
+        background: #F0ECE6;
+        transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+    
+  }
+
+  .loginTubStyle{
+    
+    background:none;
+  border-color:rgba(255, 255, 255, 0);
+  transition: all 0.5S;
+  }
+
+  .regTubStyle{
+    
+    background:none;
+  border-color:rgba(255, 255, 255, 0);
+  transition: all 0.5S;
+  }
+
+  .regTubStyle:hover {
+    transform: scale(1.2)
+  
+  }
+
+  .loginTubStyle:hover {
+    transform: scale(1.2)
+  
+  }
+
+  .loginWindowInfo{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 4%;
+    flex-direction: column;
+  }
+
+  .regWindowInfo {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 4%;
+    flex-direction: column;
+    height: 90%;
+}
+  .registrationWindow{
+    width: 90%;
+    opacity: 0;
+     visibility: hidden;
+    height: 712px;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    background: #F0ECE6;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+  }
+
+  .loginWindowMainText{
+font-family: 'Poiret One';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 0px;
+text-align: justify;
+letter-spacing: 0.17em;
+color: #69432C;
+opacity: 0.84;
+  }
+
+  .loginWindowSSecondText{
+font-family: 'Poiret One';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+    line-height: 0px;
+letter-spacing: 0.1em;
+
+color: #8C694F;
+
+opacity: 0.95;
+
+  }
+
+  .plaseForInfo{
+    width: 86%;
+    height: 43px;
+background: linear-gradient(90deg, #B0947B 0%, rgba(176, 148, 123, 0) 100%);
+
+border-color:rgba(255, 255, 255, 0);
+  }
+
+  .loginWindowLitleText{
+
+font-family: 'Poiret One';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+    line-height: 1px;
+letter-spacing: 0.1em;
+text-decoration-line: underline;
+margin-top: 4%;
+margin-bottom: 4%;
+color: #69432C;
+
+opacity: 0.95;
+
+  }
+
+  .loginWindowInfoButton{
+    width: 349px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #B0947B;
+    border-color:rgba(255, 255, 255, 0);
+  }
+  
+  .loginWindowInfoButtonText{
+color: #F0ECE6;
+    width: 34%;
+    height: 10%;
+  }
+
+  .loginWindowVECTOR{
+    position: relative;
+    left: 94%;
+    top: -75%;
+  }
+
+.regWindowVECTOR{
+    position: relative;
+    left: 94%;
+    top: -92%;
+}
+
+

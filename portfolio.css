@@ -1,0 +1,96 @@
+.portfolio{
+    width: 100%;
+    height: 743px;
+    background: #977760;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.portfolioHeader {
+    flex-basis: 19%;
+    width: 80%;
+    content: url(C:/веб/course/fotoForProject/portfolio.svg);
+}
+
+.portfolioSmallHeader{
+font-family: 'Poiret One';
+font-style: normal;
+font-weight: 400;
+font-size: 62px;
+line-height: 75px;
+color: #E6E9EE;
+position: relative;
+    margin-top: -5%;
+    flex-basis: 15%;
+}
+
+.portfolioFotoBlock {
+    /* flex-basis: 68%; */
+    display: flex;
+    width: 88%;
+    flex-direction: row;
+    height: 66%;
+    justify-content: space-between;
+    
+}
+
+.portfolioFotoBlock1 {
+    display: flex;
+    width: 33%;
+    /* height: 71%; */
+    flex-direction: column;
+}
+
+.portfolioFotoBlock2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.portfolioFotoText {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 0px;
+    letter-spacing: 0.35em;
+    color: #EAE4DD;
+    margin-top: 10%;
+}
+
+.portfolioFotoBlockImage{
+    width: 31%;
+}
+
+.textHide{
+    display: none;
+}
+
+.portfolioScroll{
+    left: 0%;
+    top: 4%;
+}
+
+.scrollCircum3{
+    fill: #B0947B;
+}
+
+.scrollCircum4{
+    fill: #F7F6F2;
+}
+
+.portfolioVector {
+    width: 85px;
+    height: 68px;
+    top: -39%;
+    left: 46%;
+}
+
+.portfolioVector2 {
+    width: 85px;
+    height: 68px;
+    top: -47%;
+    left: -47%;
+}

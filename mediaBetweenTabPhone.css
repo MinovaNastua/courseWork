@@ -1,0 +1,959 @@
+@media  (max-width: 559px){
+    .headerTextBig {
+        left: 8.5%;
+        width: 80%;
+        top: -52%;
+    }
+
+    .headerTextSmall {
+        top: -58%;
+    }
+
+    .portfolio {
+        height: 500px;
+    }
+}
+
+@media  (max-width: 733px){
+    .servesesArticle {
+    width: 583px;
+}
+.servesesVector {
+    top: -19%;
+    left: 91%;
+}
+
+.servesesLitleText {
+    top: -136%;
+}
+
+.servesesHeader {
+    font-size: 431%;
+    top: -135%;
+}
+
+.numberOfPunct01 {
+    top: -102%;
+    left: 70%;
+    width: 22%;
+}
+
+.modernTecMainText {
+    width: 85%;
+    margin-top: -13%;
+    font-size: 25px;
+    top: -9%;
+    line-height: 34px;
+    left: 7%;
+}
+.arFrameMainText {
+    top: -13%;
+}
+
+.numberOfPunct02 {
+    top: -102%;
+}
+
+.servesesVector {
+    top: -35%;
+    left: 45%;
+    width: 85px;
+    height: 52px;
+}
+
+.numberOfPunct04 {
+    top: -113%;
+}
+
+
+.scrollPersonalHeadName {
+    font-size: 52px;
+}
+
+.scrollPersonalHeadSmall {
+    font-size: 33px;
+}
+
+.fotoPerson {
+    height: 756px;
+}
+
+.line1 {
+    top: -83.2%;
+    left: 4.6%;
+    width: 78%;
+}
+
+.line2 {
+    top: -104.6%;
+    left: -38%;
+    width: 104.2%;
+}
+
+.line3 {
+    top: -127.3%;
+    width: 1031.01px;
+}
+
+.scrollPersonMainText {
+    width: 554px;
+    margin: 6%;
+    font-size: 26px;
+    height: 415px;
+    line-height: 34px;
+}
+
+.scrollPersonMain {
+    left: 0%;
+    width: 622px;
+    height: 488px;
+    top: -44%;
+}
+
+.scrollPersonalDownText {
+    font-size: 20px;
+    line-height: 13px;
+}
+
+.personalSkroll {
+    top: -80%;
+}
+
+.reviewScroll {
+    top: -13%;
+    left: 43%;
+}
+}
+
+@media  (max-width: 685px){
+    .servesesMainInfo {
+        font-size: 25px;
+        margin-top: -3%;
+    }
+
+    .servesesArticle {
+        width: 544px;
+    }
+    .servesesHeader {
+        font-size: 398%;
+        top: -136%;
+    }
+
+    .fotoPerson {
+        position: relative;
+        width: 514px;
+        top: -63%;
+        margin-left: 10%;
+        height: 733px;
+    }
+
+    .scrollPersonMain {
+        width: 579px;
+        top: -41%;
+    }
+
+    .scrollPersonMainText {
+        width: 527px;
+        margin: 6%;
+        font-size: 24px;
+        height: 415px;
+        line-height: 34px;
+    }
+
+    .line3 {
+        top: -124.3%;
+        width: 971px;
+    }
+    .personalMainInfoAllTextUp {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 135%;
+    }
+    .personalSkroll {
+        top: -79%;
+    }
+
+    .scrollPersonalHeadName {
+        font-size: 47px;
+    }
+
+    .scrollPersonalHeadSmall {
+        font-size: 30px;
+    }
+
+    .reviewScroll {
+        top: -13%;
+        left: 43%;
+    }
+
+    .reviewExemple {
+        width: 519px;
+        height: 459px;
+    }
+
+    .footerColumnSmallText {
+        font-size: 18px;
+    }
+
+    .footerColumnBigText {
+        font-size: 27px;
+    }
+
+    .footerColumnExeption {
+        margin-right: 16%;
+    }
+
+    .reviewsHeadHeader {
+        font-size: 40px;
+    }
+
+    .numberOfPunct05 {
+        top: -112%;
+        height: 141px;
+        left: 57%;
+        width: 35%;
+    }
+}
+
+@media  (max-width: 620px){
+.servesesArticle {
+    width: 502px;
+}
+
+.servesesHeader {
+    font-size: 356%;
+    top: -137%;
+}
+
+.servesesLitleText {
+    font-size: 33px;
+    top: -137%;
+    left: 4%;
+}
+
+.arFrameMainText {
+    top: -15%;
+    font-size: 23px;
+}
+
+.portfolioFotoText {
+    font-size: 33px;
+}
+
+.portfolioFotoBlockImage {
+    width: 80%;
+    margin-bottom: 11%;
+}
+.portfolioFotoBlock {
+    width: 86%;
+    height: 55%;
+}
+.portfolioSmallHeader {
+    margin-bottom: 28px;
+}
+
+.personal {
+    width: 100%;
+    height: 838px;
+    background: #977760;
+}
+
+.personalFoto {
+    width: 100%;
+    height: 345px;
+}
+
+.personalHeadExs {
+    top: -41%;
+}
+
+.modernTecMainText {
+    top: -17%;
+}
+
+.numberOfPunct04 {
+    top: -119%;
+    left: 67%;
+    width: 30%;
+    height: 22%;
+}
+
+.personalMainInfoAllTextUp {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 167%;
+}
+
+.personalMainInfoAllText {
+    margin-top: -46%;
+}
+.personalMainInfoAllTextDown {
+    display: flex;
+    margin-top: -14%;
+    flex-direction: column;
+    height: 22%;
+}
+.fotoPerson {
+    position: relative;
+    width: 480px;
+    top: -63%;
+    margin-left: 10%;
+    height: 672px;
+}
+
+.scrollPersonMain {
+    width: 579px;
+    top: -37%;
+}
+
+.line3 {
+    top: -124.3%;
+    width: 896px;
+}
+
+.reviewExemple {
+    width: 482px;
+    height: 459px;
+}
+
+.mainTextREVIEWS {
+    font-size: 23px;
+}
+
+.reviewLine {
+    top: -61%;
+}
+}
+
+@media  (max-width: 600px){
+
+    .scrollPersonal {
+        height: 1132px;
+    }
+
+    .personalMainInfo {
+        display: flex;
+        width: 97%;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        height: 90%;
+        margin-left: 1%;
+        margin-top: 125%;
+    }
+
+    .fotoPerson {
+        position: relative;
+        width: 307px;
+        top: -69%;
+        margin-left: 10%;
+        height: 424px;
+    }
+
+    .personalMainInfoAllText {
+        margin-top: -52%;
+    }
+
+    .scrollPersonalHeadSmall {
+        font-size: 23px;
+    }
+    .scrollPersonalHeadName {
+        font-size: 32px;
+        line-height: 1px;
+    }
+    .personalMainInfoAllTextDown {
+        display: flex;
+        margin-top: -32%;
+        flex-direction: column;
+        height: 22%;
+    }
+
+    .personalMainInfoAllTextUp {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 119%;
+    }
+    .scrollPersonalDownText {
+        font-size: 19px;
+        line-height: 20px;
+        margin-top: -5px;
+    }
+
+    .scrollPersonMainText {
+        width: 441px;
+        margin: 6%;
+        font-size: 22px;
+        height: 359px;
+        line-height: 26px;
+    }
+    .scrollPersonMain {
+        width: 507px;
+        top: -36%;
+        height: 414px;
+    }
+
+    .line2 {
+        top: -105.6%;
+        left: -38%;
+        width: 77.2%;
+        border: 2px solid #B0947B;
+    }
+
+    .line1 {
+        top: -87%;
+        left: 2.6%;
+        width: 81%;
+        border: 2px solid #B0947B;
+    }
+
+    .line3 {
+        top: -123.3%;
+        width: 438px;
+    }
+    .personalVector {
+        top: 30%;
+        left: 83%;
+        width: 51px;
+    }
+
+    .personalSkroll {
+        top: -83%;
+        width: 21%;
+    }
+
+    .reviewScroll {
+        top: -8%;
+        left: 43%;
+    }
+
+    .footerColumns {
+        width: 88%;
+    }
+}
+
+
+
+
+@media  (max-width: 580px){
+    .servesesArticle {
+        width: 398px;
+    }
+    
+    .servesesHeader {
+        font-size: 289%;
+        top: -102%;
+    }
+    
+    .servesesLitleText {
+        font-size: 33px;
+        top: -101%;
+        left: 4%;
+    }
+
+    .servesesVector {
+        top: -19%;
+        left: 89%;
+    }
+
+    .scrollCircum {
+        width: 13px;
+    }
+
+
+
+
+
+
+
+    .modernTec {
+        height: 853px;
+    }
+
+    .modernTecFoto {
+        width: 100%;
+        height: 62%;
+    }
+
+    .modernTecHead {
+        top: -60%;
+    }
+    .modernTecMainText {
+        width: 84%;
+        margin-top: 0%;
+        font-size: 19px;
+        top: -9%;
+        line-height: 22px;
+        left: 9%;
+    }
+
+    .modernTecHeadSmallText {
+        font-size: 18px;
+    }
+
+    .modernTecHeadHeader {
+        text-align: start;
+        font-size: 29px;
+        line-height: 33PX;
+        margin-left: 3%;
+        margin-top: -3px;
+    }
+
+    .numberOfPunct01 {
+        top: -97%;
+        left: 67%;
+        width: 25%;
+    }
+
+    /*  */
+    .arFrameFoto {
+        left: 0%;
+        width: 100%;
+        height: 558px;
+    }
+
+    .arFrameMainText {
+        top: -15%;
+    }
+    .arFrame {
+        height: 939px;
+    }
+
+    .arFrameSmallText {
+        margin-top: 47px;
+        margin-left: 26px;
+    }
+
+    .arFrameWordSpase {
+        word-spacing: -8px;
+        margin-left: 5%;
+        margin-top: 0%;
+    }
+    .arFrameTextExeption {
+        margin-left: 0%;
+    }
+
+    .nextLine {
+        top: 5px;
+    }
+
+    .numberOfPunct02 {
+        top: -102%;
+    }
+
+
+
+    /* exspir */
+    .exspiriense {
+        height: 777px;
+    }
+
+    .exspirienseFoto {
+        height: 439px;
+    }
+
+    .exspirienseSmallText {
+        margin-left: 3%;
+        font-size: 37px;
+        margin-bottom: 14px;
+        margin-top: 52px;
+    }
+    .exspiriensenextLine {
+        top: 49px;
+        left: 0%;
+        font-size: 27px;
+        margin-bottom: -7%;
+        word-spacing: -4px;
+        letter-spacing: 3px;
+    }
+
+    .numberOfPunct03 {
+        top: -88%;
+        left: 67%;
+        width: 30%;
+    height: 22%;
+    }
+
+    .exspiriensenextLineExeption {
+        margin-left: 0px;
+    }
+
+    .exspirienseSmallText {
+        font-size: 21px;
+    }
+
+    .portfolioVector {
+        top: -29%;
+        left: 45%;
+    }
+
+    .personalHeadExs {
+        top: -40%;
+    }
+    .numberOfPunct04 {
+        top: -91%;
+    }
+
+    .scrollPersonMain {
+        width: 451px;
+        top: -36%;
+        height: 414px;
+    }
+
+    .scrollPersonMainText {
+        width: 389px;
+        margin: 6%;
+        font-size: 21px;
+        height: 359px;
+        line-height: 26px;
+    }
+
+    .servesesVector {
+        top: -19%;
+        left: 81%;
+    }
+    .portfolioVector {
+        top: -29%;
+        left: 43%;
+    }
+    }
+
+
+@media   (max-width: 520px){
+    .reviewsHeadHeader {
+        font-size: 32px;
+        line-height: 41PX;
+        margin-left: 17px;
+    }
+
+    .reviewsHeadSmallText {
+        font-size: 27px;
+    }
+
+    .reviewExemple {
+        width: 415px;
+        height: 466px;
+    }
+
+    .nikNameName {
+        font-size: 33px;
+    }
+
+    .mainTextREVIEWS {
+        font-size: 20px;
+    }
+
+    .footerHeader {
+        font-size: 49px;
+    }
+
+    .footerHeadSmallText {
+        font-size: 33px;
+    }
+
+    .footerColumnBigText {
+        font-size: 21px;
+    }
+
+    .footerColumnSmallText {
+        font-size: 15px;
+    }
+
+
+    .reviewVector {
+        width: 50px;
+    }
+}
+    @media   (max-width: 470px){
+        .servesesArticle {
+            width: 350px;
+        }
+        
+        .servesesHeader {
+            font-size: 240%;
+            top: -121%;
+        }
+        
+        .servesesLitleText {
+            font-size: 29px;
+            top: -119%;
+            left: 4%;
+        }
+    
+        .servesesVector {
+            top: -19%;
+            left: 89%;
+        }
+    
+        .scrollCircum {
+            width: 13px;
+        }
+
+        .servesesMainInfo {
+            font-size: 21px;
+            margin-top: -3%;
+            line-height: 30px;
+        }
+
+        .servesesVector {
+            width: 45px;
+        }
+
+        .numberOfPunct02 {
+            top: -108%;
+        }
+
+        .numberOfPunct03 {
+            top: -95%;
+        }
+
+        .portfolioFotoText {
+            font-size: 27px;
+        }
+
+        .portfolioFotoBlock {
+            width: 86%;
+            height: 40%;
+        }
+
+        .portfolioSmallHeader {
+            margin-top: -22%;
+            margin-bottom: 39px;
+            font-size: 37px;
+        }
+       
+        .portfolioVector {
+            top: -19%;
+            left: 44%;
+        }
+
+        .personalMainInfo {
+            display: flex;
+            width: 97%;
+            flex-direction: column-reverse;
+            justify-content: flex-end;
+            height: 90%;
+            margin-left: 1%;
+            margin-top: 146%;
+        }
+        .personalMainInfoAllText {
+            margin-top: -68%;
+        }
+        .scrollPersonMainText {
+            width: 324px;
+            margin: 6%;
+            font-size: 21px;
+            height: 477px;
+            line-height: 26px;
+        }
+        .scrollPersonMain {
+            width: 366px;
+            top: -31%;
+            height: 501px;
+        }
+
+        .fotoPerson {
+            position: relative;
+            width: 262px;
+            top: -76%;
+            margin-left: 10%;
+            height: 354px;
+        }
+
+        /*  */
+
+        .reviewsFrame {
+            height: 1091px;
+        }
+
+        .reviews {
+            height: 59%;
+            top: -58%;
+        }
+
+        .reviewsHeadHeader {
+            font-size: 25px;
+            line-height: 31PX;
+            margin-left: 12px;
+            margin-top: -5%;
+            margin-bottom: 5%;
+        }
+
+        .reviewExemple {
+            width: 246px;
+            height: 417px;
+        }
+
+        .nikNameFoto {
+            width: 31px;
+            height: 31px;
+        }
+
+        .nikNameName {
+            font-size: 18px;
+        }
+
+        .reviewsHeadSmallText {
+            font-size: 21px;
+            line-height: 12px;
+        }
+
+        .numberOfPunct5star {
+            width: 54%;
+            margin-left: 0%;
+            margin-top: 3%;
+        }
+
+        .mainTextREVIEWS {
+            font-size: 15px;
+            line-height: 20px;
+        }
+
+        .reviewVector {
+            left: 89%;
+            top: -36%;
+            width: 28px;
+        }
+
+        .numberOfPunct05 {
+            top: -119%;
+            height: 141px;
+            left: 62%;
+            width: 35%;
+        }
+
+        .reviewScroll {
+            top: -8%;
+            left: 39%;
+        }
+
+        .reviewExempleBlok {
+            width: 100%;
+            height: 350px;
+        }
+
+        .footer {
+            top: -71%;
+        }
+    
+        .footerHeader {
+            font-size: 29px;
+        }
+
+        .footerColumnBigText {
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+        .footerHeadSmallText {
+            font-size: 21px;
+            margin-bottom: 5px;
+        }
+
+        .footerColumnSmallText {
+            font-size: 14px;
+            margin-bottom: 7px;
+        }
+        .footerColumns {
+        flex-direction: column;
+        margin-left: 10%;
+        }
+
+        .footerColumn {
+            margin: 0%;
+            
+        }
+
+        .reviewLine {
+            top: -68%;
+        }
+}
+
+@media  (max-width: 380px){
+    
+    .portfolio {
+        height: 371px;
+    }
+    .portfolioFotoText {
+        font-size: 21px;
+    }
+
+
+    .scrollPersonMainText {
+        width: 285px;
+        margin: 6%;
+        font-size: 19px;
+        height: 470px;
+        line-height: 26px;
+    }
+
+    .scrollPersonMain {
+        width: 321px;
+        top: -32%;
+        height: 501px;
+    }
+    .personalMainInfo {
+        display: flex;
+        width: 97%;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        height: 90%;
+        margin-left: 1%;
+        margin-top: 193%;
+    }
+
+    .fotoPerson {
+        position: relative;
+        width: 262px;
+        top: -80%;
+        margin-left: 10%;
+        height: 354px;
+    }
+
+    .personalMainInfoAllTextUp {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 149%;
+    }
+
+    .scrollPersonalHeadName {
+        font-size: 26px;
+        line-height: 1px;
+    }
+
+    .scrollPersonalHeadSmall {
+        font-size: 20px;
+    }
+
+    .personalSkroll {
+        top: -88%;
+        width: 21%;
+    }
+
+    .line1 {
+        top: -91%;
+        left: 2.6%;
+        width: 81%;
+        border: 2px solid #B0947B;
+    }
+
+    .line3 {
+        top: -122.3%;
+        width: 438px;
+    }
+
+    .personalMainInfoAllText {
+        margin-top: -103%;
+    }
+
+    .reviewScroll {
+        top: -8%;
+        left: 39%;
+    }
+}
+@media  (max-width: 559px){
+.portfolio {
+    height: 539px;
+}
+.portfolioScroll {
+    left: 0%;
+    top: 22%;
+}
+}
