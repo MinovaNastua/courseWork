@@ -1,0 +1,79 @@
+.modernTec{
+    width: 100%;
+    height: 741px;
+    background: #B0947B;
+}
+
+.modernTecFoto{
+    width: 50%;
+    height: 741px;
+    flex-basis: 50%;
+    background-image: url(C:/веб/course/fotoForProject/modernTehnology.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.modernTecHead {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -99%;
+    left: 1%;
+}
+
+.modernTecHeadHeader {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 0PX;
+    letter-spacing: 0.215em;
+    margin-top: 10px;
+}
+
+.modernTecHeadHeaderMein{
+    color: #8C694F;
+}
+
+.modernTecHeadHeaderEm{
+    color: #F7F6F2;
+}
+
+.modernTecHeadSmallText{
+font-family: 'Poiret One';
+font-style: normal;
+font-weight: 400;
+font-size: 46px;
+line-height: 0px;
+
+}
+
+.SmallTextEl1{
+    color: #8C694F;
+}
+
+.svgbackground {
+        width: 16%;
+        height: 22%;
+        position: relative;
+  }
+  
+  .numberOfPunct01{
+    top: -156%;
+    left: 82%;
+    content: url('C:/веб/course/fotoForProject/01.svg');
+}
+
+.modernTecMainText {
+    position: relative;
+    top: -79%;
+    left: 54%;
+    width: 41%;
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: justify;
+    color: #F0ECE6;
+}

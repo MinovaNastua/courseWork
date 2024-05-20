@@ -1,0 +1,205 @@
+.requestFrame{
+    width: 100%;
+    height: 989px;
+    background-image: url(fotoForProject/zapros.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.requestFrameNav{
+    display: flex;
+    width: 100%;
+    height: 74px;
+    background: #B0947B;
+    opacity: 0.87;
+    justify-content: space-between;
+}
+
+.requestFrameNavMain {
+    display: flex;
+    width: 71%;
+    justify-content: space-between;
+}
+
+.requestFrameNavText {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 45px;
+    margin: 1%;
+    letter-spacing: 0.14em;
+    color: #E6E9EE;
+}
+
+.requestFrameForm {
+    position: relative;
+    top: 3%;
+    left: 5%;
+    width: 90%;
+    height: 827px;
+    display: flex;
+    background: #B0947B;
+    opacity: 0.82;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.requestFrameFormBigText {
+    margin-top: 3%;
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 0px;
+    letter-spacing: 0.14em;
+    color: #F7F6F2;
+}
+
+.requestFrameFormFirstPlace {
+    width: 90%;
+    height: 59px;
+    background: #F7F6F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.requestFrameFormSmallText{
+font-family: 'Poiret One';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 0px;
+margin-left: 1%;
+letter-spacing: 0.14em;
+color: #8C694F;
+
+
+}
+
+.requestFrameFormSecondPlace {
+    width: 90%;
+    height: 180px;
+    background: #F7F6F2;
+}
+
+.requestFrameFormThirtPlace{
+
+    display: flex;
+    width: 74%;
+    justify-content: space-between;
+}
+
+.requestFrameFormThirtPlaceBlock{
+width: 258px;
+height: 174px;
+background: #F7F6F2;
+display: flex;
+
+align-items: center;
+justify-content: center;
+}
+
+.requestFrameFormSmallTextColor1{
+    color: #F7F6F2;
+}
+
+.requestFrameFormTub{
+width: 254px;
+height: 63px;
+MARGIN-BOTTOM: 3%;
+background: #F7F6F2;
+border-color:rgba(255, 255, 255, 0);
+}
+
+.requestFrameButton{
+width: 26%;
+background: none;
+border-color:rgba(255, 255, 255, 0);
+}
+
+.myProjectFrame{
+    width: 100%;
+    height: 989px;
+    background-image: url(fotoForProject/MyProect.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.myProjectFrameBigText{
+
+    width: 100%;
+    justify-content: center;
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    font-size: 69px;
+    line-height: 0%;
+    letter-spacing: 0.14em;
+    color: #69432C;
+}
+
+.myProjectFrameMain{
+    
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myProjectFrameBigText1{
+    width: 100%;
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 63px;
+    line-height: 0%;
+    letter-spacing: 0.14em;
+    color: #69432C;
+}
+
+.myProjectFrameLine{
+width: 100%;
+border: 2px solid #977760;
+}
+
+.myProjectFramePlaseForTecst{
+background: #977760;
+
+position: relative;
+top: -58px;
+left: -26%;
+}
+
+.myProjectFramePlasTecst{
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 0%;
+    letter-spacing: 0.14em;
+    color: #F7F6F2;
+
+
+}
+
+.myProjectFrameBigText2{
+
+    width: 98%;
+    text-align: end;
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 0%;
+    letter-spacing: 0.14em;
+    color: #69432C;
+
+
+}
+

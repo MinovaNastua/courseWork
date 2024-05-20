@@ -1,0 +1,409 @@
+@media  (max-width: 484px){
+
+    .mainBlockFon {
+        height: 364px;
+        background-image: url(C:/веб/course/fotoForProject/mainFon3.jpg);
+    }
+
+    .burgerMenuInMain{
+        display: block;
+    }
+
+    .forHide{
+        display: none;
+    }
+
+    .headMenu {
+        height: 8%;
+    }
+
+    .leftElementBlock {
+        width: 29px;
+        height: 92%;
+    }
+
+    .headerTextBig {
+        left: 8%; 
+        width: 82%;
+        top: -49%;
+        font-size: 184%;
+    }
+
+    .tub {
+        width: 9px;
+    }
+
+    .headerTextSmall {
+        font-size: 130%;
+        width: 33%;
+        top: -56%;
+        left: 55%;
+    }
+
+    .burgerMenuInMain {
+        margin-top: 1%;
+        width: 24px;
+        height: 24px;
+    }
+
+    .menuPointText {
+        margin-top: 10%;
+        font-size: 101%;
+    }
+
+    .fourElementsInMain {
+        height: 26%;
+        margin-bottom: 51%;
+    }
+
+    .vkElement {
+        width: 15px;
+        height: 15px;
+    }
+
+    .telegramElement {
+        width: 17px;
+        height: 20px;
+    }
+}
+
+
+@media  (max-width: 400px){
+.serveses {
+    width: 100%;
+    height: 762px;
+    flex-direction: column;
+}
+
+.servesesArticle {
+   
+    width: 239px;
+    margin-left: 11%;
+    margin-top: -11%;
+}
+
+.servesesHeader {
+    font-size: 191%;
+    top: -67%;
+    margin-left: 0%;
+}
+
+.servesesMainInfo {
+    font-size: 18px;
+    margin-top: 0;
+    line-height: 22px;
+    top: -11%;
+}
+
+
+.servesesLitleText {
+    font-size: 19px;
+    top: -65%;
+    left: -1%;
+}
+
+.servesesVector {
+    top: -30%;
+    left: 89%;
+    width: 35px;
+}
+
+.scrollCircum {
+    width: 10px;
+}
+
+.skroll {
+    top: -40px;
+    left: 36%;
+    width: 22%;
+}
+
+}
+
+@media  (max-width: 400px){
+
+    .modernTec {
+        height: 853px;
+    }
+
+    .modernTecFoto {
+        width: 100%;
+        height: 46%;
+    }
+
+    .modernTecHead {
+        top: -46%;
+    }
+    .modernTecMainText {
+        width: 84%;
+        margin-top: 0%;
+        font-size: 19px;
+        top: -9%;
+        line-height: 22px;
+        left: 9%;
+    }
+
+    .modernTecHeadSmallText {
+        font-size: 18px;
+    }
+
+    .modernTecHeadHeader {
+        text-align: start;
+        font-size: 29px;
+        line-height: 33PX;
+        margin-left: 3%;
+        margin-top: -3px;
+    }
+
+    .numberOfPunct01 {
+        top: -91%;
+        left: 67%;
+        width: 25%;
+    }
+
+    /* ar and vr */
+    .arFrame {
+        height: 925px;
+    }
+
+    .arFrameFoto {
+        height: 361px;
+    }
+
+    .arFrameMainText {
+        top: -17%;
+    }
+
+    .arFrameSmallText {
+        margin-top: 91px;
+        margin-left: 10px;
+    }
+
+    .numberOfPunct02 {
+        top: -98%;
+    }
+
+    .arFrameWordSpase {
+        word-spacing: -8px;
+        margin-left: 5%;
+        margin-top: 0%;
+    }
+    .arFrameTextExeption {
+        margin-left: 0%;
+    }
+
+    .nextLine {
+        top: 5px;
+    }
+
+    /*  */
+
+    .exspiriensenextLine {
+        top: 47px;
+        left: 0%;
+        font-size: 27px;
+        margin-bottom: 19%;
+        word-spacing: -4px;
+        letter-spacing: 3px;
+    }
+    .exspiriensenextLineExeption {
+        margin-left: 0px;
+    }
+    .exspirienseSmallText {
+        margin-top: -53px;
+    }
+    .numberOfPunct03 {
+        top: -110%;
+    }
+    .portfolioScroll {
+        left: 0%;
+        top: 7%;
+    }
+
+    .servesesVector {
+        top: -43%;
+        left: 44%;
+        width: 35px;
+    }
+
+    
+.personalHeadExs {
+    top: -40%;
+}
+.numberOfPunct04 {
+    top: -102%;
+}
+}
+
+@media  (max-width: 340px){
+
+    .scrollPersonal {
+        height: 1132px;
+    }
+
+    .personalMainInfo {
+        display: flex;
+        width: 97%;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        height: 90%;
+        margin-left: 1%;
+        margin-top: 154%;
+    }
+
+
+    .fotoPerson {
+        position: relative;
+        width: 240px;
+        top: -62%;
+        margin-left: 10%;
+        height: 323px;
+    }
+
+    .personalMainInfoAllText {
+        margin-top: -45%;
+    }
+
+    .scrollPersonalHeadSmall {
+        font-size:19px;
+    }
+    .scrollPersonalHeadName {
+        font-size: 24px;
+        line-height: 1px;
+    }
+    .personalMainInfoAllTextDown {
+        display: flex;
+        margin-top: -32%;
+        flex-direction: column;
+        height: 22%;
+    }
+
+    .scrollPersonalDownText {
+        font-size: 19px;
+        line-height: 20px;
+        margin-top: -5px;
+    }
+
+    .scrollPersonMainText {
+        width: 220px;
+        margin: 6%;
+        font-size: 20px;
+        height: 490px;
+        line-height: 18px;
+    }
+    .scrollPersonMain {
+        width: 256px;
+        top: -29%;
+        height: 570px;
+    }
+    .line3 {
+        top: -119.3%;
+        width: 438px;
+    }
+
+    .line2 {
+        top: -105.6%;
+        left: -38%;
+        width: 114.2%;
+        border: 2px solid #B0947B;
+    }
+
+    .line1 {
+        top: -90%;
+        left: 2.6%;
+        width: 81%;
+        border: 2px solid #B0947B;
+    }
+    .personalVector {
+        top: -8%;
+        left: 90%;
+        width: 24px;
+    }
+
+    .personalSkroll {
+        top: -88%;
+        width: 21%;
+    }
+
+    .personalMainInfoAllTextUp {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 166%;
+    }
+}
+
+@media  (max-width: 340px){
+    .numberOfPunct01 {
+        top: -105%;
+        left: 67%;
+        width: 28%;
+    }
+
+     /* portfolio */
+
+     .portfolio {
+        height: 296px;
+    }
+    .portfolioHeader {
+        width: 85%;
+        margin-top: -7px;
+    }
+    .portfolioSmallHeader {
+        margin-top: -19%;
+        font-size: 22px;
+        margin-bottom: -11px;
+    }
+
+    .portfolioFotoBlockImage {
+        width: 96%;
+        margin-bottom: 22%;
+    }
+    .textHide {
+        margin-top: 0%;
+        font-size: 19px;
+        justify-content: space-between;
+    }
+
+    .portfolioFotoBlock1 {
+        justify-content: space-between;
+    }
+    .portfolioFotoBlock {
+        width: 86%;
+        height: 71%;
+    }
+
+    .reviewScroll {
+        top: -8%;
+        left: 39%;
+    }
+
+   
+}
+
+@media  (max-width: 350px){
+    
+    .numberOfPunct02 {
+        top: -111%;
+    }
+}
+
+@media  (max-width: 360px){
+    .personalHeadExs {
+        top: -41%;
+    }
+
+    .personalHeadHeader {
+        word-spacing: -7px;
+    font-size: 27px;
+    margin-left: -1%;
+    }
+
+    .numberOfPunct04 {
+        top: -119%;
+    }
+
+    .personMainText {
+        top: -17%;
+    }
+}
+
