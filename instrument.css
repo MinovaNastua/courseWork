@@ -1,0 +1,55 @@
+.buttonTranslate{
+  width: 101%;
+  font-size: 139%;
+  font-family:'Poiret One';
+  border-width:1px;
+  color:#fff;
+  border-color:rgba(255, 255, 255, 1);
+  border-top-left-radius:28px;
+  border-top-right-radius:28px;
+  border-bottom-left-radius:28px;
+  border-bottom-right-radius:28px;
+  background:rgba(0, 0, 0, 0);
+  height: 11%;
+  transition: transform 0.3s ease; 
+}
+
+.buttonTranslate:hover {
+  transform: scale(1.2);
+
+}
+
+
+.buttonLite{
+  border-color:rgba(255, 255, 255, 0);
+  background:none;
+  transition: transform 0.3s ease; 
+  
+}
+
+.buttonLite:hover {
+  transform: scale(1.2)
+
+}
+
+.buttonLiteSun{
+  display:block;
+  width: 100%;
+  height: 100%;
+}
+
+.buttonLiteMoon{
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+ 
+
+.open {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}

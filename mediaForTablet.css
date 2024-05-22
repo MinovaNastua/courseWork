@@ -1,0 +1,429 @@
+@media  (max-width: 768px){
+
+    .mainBlockFon {
+        height: 655px;
+    }
+
+    .burgerMenuInMain{
+        display: block;
+    }
+
+    .forHide{
+        display: none;
+    }
+
+    .headMenu {
+        height: 7%;
+    }
+
+    .leftElementBlock {
+        width: 53px;
+        height: 93%;
+    }
+
+    .headerTextBig {
+        left: 12.5%;
+        width: 64%;
+        top: -53%;
+        font-size: 313%;
+    }
+
+    .headerTextSmall {
+        font-size: 210%;
+        width: 33%;
+        top: -59%;
+        left: 43%;
+    }
+
+    .burgerMenuInMain {
+        margin-top: 4%;
+        width: 52px;
+        height: 52px;
+        margin-left: -2%;
+    }
+
+    .menuPointText {
+        margin-top: 13%;
+        font-size: 160%;
+    }
+
+    .regTubStyle {
+        height: 142%;
+    }
+
+    .fourElementsInMain {
+        height: 46%;
+        margin-bottom: 15%;
+    }
+
+    .vkElement {
+        width: 31px;
+        height: 31px;
+    }
+
+    .telegramElement {
+        width: 33px;
+        height: 34px;
+    }
+
+    .mainBlockFon{
+     background-image: url(fotoForProject/mainFon2.jpg);
+    }
+
+    .skroll {
+        top: -44px;
+        left: 43%;
+        width: 14%;
+    }
+}
+
+
+@media  (max-width: 955px){
+    .modernTec {
+        height: 1185px;
+    }
+
+    .modernTecFoto {
+        width: 100%;
+        height: 790px;
+    }
+
+    .modernTecHead {
+        top: -66%;
+    }
+    .SmallTextEl1 {
+        margin-left: 4%;
+    }
+
+    .modernTecHeadHeader {
+        text-align: start;
+        font-size: 48px;
+        line-height: 52PX;
+        margin-left: 3%;
+        margin-top: -9px;
+    }
+
+    .modernTecHeadHeaderEm {
+        color: #8C694F;
+        margin-left: 0px;
+    }
+
+    .numberOfPunct01 {
+        top: -99%;
+        left: 66%;
+        width: 25%;
+        height: 15%;
+        content: url(C:/веб/course/fotoForProject/01n2.svg);
+    }
+
+    .modernTecMainText {
+        width: 85%;
+        font-size: 28px;
+        top: -11%;
+        line-height: 34px;
+        left: 7%;
+    }
+
+
+    /* ar and vr */
+    .arFrame{
+        height: 1348px;
+    }
+    
+    .arFrameFoto {
+        left: 0%; 
+        width: 100%;
+        height: 798px;
+    }
+
+    .arFrameSmallText {
+        margin-top: 148px;
+        margin-left: 38px;
+        font-size: 220%;
+    }
+
+    .arFrameWordSpase {
+        word-spacing: -8px;
+        margin-left: 5%;
+        margin-top: -2%;
+    }
+
+    .arFrameTextExeption{
+        margin-left: 0%;
+    }
+
+    .nextLine {
+        left: 2%;
+        top: 14px;
+    }
+
+    .arFrameMainText {
+        left: 7%;
+        top: -20%;
+        WIDTH: 86%;
+        font-size: 30px;
+    }
+
+    .numberOfPunct02 {
+        top: -110%;
+        width: 34%;
+    height: 12%;
+    left: 63%;
+    }
+    
+/* exspir */
+
+.exspiriense {
+    width: 100%;
+    height: 1163px;
+    background: #977760;
+}
+
+.exspirienseFoto {
+    width: 100%;
+    height: 777px;
+}
+
+.exspirienseSmallText {
+    margin-left: 3%;
+    font-size: 37px;
+    margin-bottom: 57px;
+    margin-top: 36px;
+}
+
+.exspirienseFrameWordSpase {
+    word-spacing: 6px;
+    margin-bottom: -44px;
+}
+
+.exspiriensenextLine {
+    top: 55px;
+    left: 0%;
+    margin-bottom: -7%;
+}
+
+.numberOfPunct03 {
+    top: -99%;
+    left: 67%;
+    
+}
+
+/*  */
+
+.portfolio {
+    height: 835px;
+}
+
+.portfolioBlockForTablet{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.imageHide{
+    display: none;
+}
+
+.textHide {
+    margin-top: 8%;
+    display: block;
+}
+
+.portfolioNewBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3%;
+    justify-content: space-between;
+    margin-top: 0%;
+}
+
+.portfolioFotoBlock {
+    width: 86%;
+    height: 66%;
+}
+
+.portfolioSmallHeader {
+    margin-top: -13%;
+    margin-bottom: -12px;
+    font-size: 53px;
+}
+
+.portfolioHeader {
+    width: 94%;
+    margin-top: -19px;
+}
+
+.portfolioFotoBlock1 {
+    display: flex;
+    width: 47%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.portfolioFotoBlock2 {
+    width: 305px;
+}
+
+.portfolioFotoBlockImage {
+    width: 94%;
+    margin-bottom: 11%;
+}
+
+.portfolioScroll {
+    left: 0%;
+    top: 13%;
+}
+
+.personal {
+    width: 100%;
+    height: 1272px;
+    background: #977760;
+}
+.personalFoto {
+    width: 100%;
+    height: 755px;
+}
+
+.personalHeadExs{
+        top: -60%;
+        left: 4%;
+        width: 84%;
+}
+
+.personalHeadHeader {
+    word-spacing: -16px;
+    margin-bottom: 37px;
+    color: #E6E9EE;
+}
+
+.personalHeadsmall {
+    
+    color: #E6E9EE;
+}
+.numberOfPunct04 {
+    top: -114%;
+    left: 67%;
+    width: 30%;
+    height: 22%;
+}
+
+.personMainText {
+    top: -16%;
+}
+
+.personalVector {
+    top: 10%;
+    left: 90%;
+}
+
+/*  */
+
+.reviewsFrame {
+    height: 1421px;
+}
+
+.reviewsFrameColor {
+    background: #977760;
+}
+
+.reviewsHeadSmallText{
+    color: #E6E9EE;
+    font-size: 35px;
+    margin-left: 4%;
+}
+
+.reviewsHeadHeader {
+    font-size: 45px;
+    color: #E6E9EE;
+    margin-left: 37px;
+    margin-top: -6%;
+    line-height: 59PX;
+    margin-bottom: 0%;
+}
+
+.numberOfPunct05 {
+    top: -112%;
+    height: 169px;
+    left: 63%;
+    width: 35%;
+}
+
+.reviewExemple {
+    width: 579px;
+    height: 459px;
+}
+
+.nikNameName {
+    color: #E6E9EE;
+    margin-left: 7px;
+}
+
+ .reviewVector {
+    color: #E6E9EE;
+    left: 89%;
+    top: -31%;
+} 
+
+.reviews {
+    height: 59%;
+}
+
+.reviewScroll{
+    top: -13%;
+    left: 43%;
+}
+
+.mainTextREVIEWS {
+    font-size: 25px;
+}
+
+.footer {
+    top: -65%;
+    flex-wrap: wrap;
+}
+
+
+.footerHeadSmallText {
+    margin-left: 41%;
+    color: #E6E9EE;
+}
+
+.footerColumns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 76%;
+    justify-content: space-between;
+}
+
+.footerColumnExeption {
+    margin-right: 23%;
+}
+
+.reviewLine {
+    top: -65%;
+}
+.footerHeader{
+    color: #E6E9EE;
+}
+}
+
+@media  (max-width: 846px){
+    
+    .numberOfPunct01 {
+        top: -104%;
+        left: 66%;
+        width: 25%;
+        height: 15%;
+        content: url(/fotoForProject/01n2.svg);
+    }
+
+        .portfolio {
+            height: 701px;
+        }
+        
+}
+
+
