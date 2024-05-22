@@ -9,31 +9,32 @@
 }
 
 .portfolioHeader {
+    margin-top: 1%;
     flex-basis: 19%;
     width: 80%;
     content: url(fotoForProject/portfolio.svg);
 }
 
-.portfolioSmallHeader{
-font-family: 'Poiret One';
-font-style: normal;
-font-weight: 400;
-font-size: 62px;
-line-height: 75px;
-color: #E6E9EE;
-position: relative;
-    margin-top: -5%;
+.portfolioSmallHeader {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 75px;
+    color: #E6E9EE;
+    position: relative;
+    margin-top: -3%;
     flex-basis: 15%;
 }
 
 .portfolioFotoBlock {
     /* flex-basis: 68%; */
+    margin-top: 2%;
     display: flex;
     width: 88%;
     flex-direction: row;
     height: 66%;
     justify-content: space-between;
-    
 }
 
 .portfolioFotoBlock1 {

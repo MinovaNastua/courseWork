@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let button = document.querySelector('.buttonLite');
     button.addEventListener('click', function() 
     {
-        if(document.querySelector('.buttonLiteSun').style.display=="block")
+        if(document.querySelector('.buttonLiteSun').style.display==="block")
         {
         document.querySelector('.buttonLiteSun').style.display="none";
         document.querySelector('.buttonLiteMoon').style.display="block";

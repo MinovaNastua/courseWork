@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('foto3').style.content = "url(/fotoForProject/clothes3.jpg)";
             document.getElementById('foto4').style.content = "url(/fotoForProject/clothes4.jpg)";
             document.getElementById('foto33').style.content = "url(/fotoForProject/clothes3.jpg)";
-            document.getElementById('foto44').style.content = "url(C/fotoForProject/clothes4.jpg)";
+            document.getElementById('foto44').style.content = "url(/fotoForProject/clothes4.jpg)";
             document.getElementById('1d').style.fill="#F7F6F2";
             document.getElementById('2d').style.fill="#F7F6F2";
             document.getElementById('3d').style.fill="#B0947B";
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('foto3').style.content = "url(/fotoForProject/clothes3.jpg)";
             document.getElementById('foto4').style.content = "url(/fotoForProject/clothes4.jpg)";
             document.getElementById('foto33').style.content = "url(/fotoForProject/clothes3.jpg)";
-            document.getElementById('foto44').style.content = "url(C/fotoForProject/clothes4.jpg)";
+            document.getElementById('foto44').style.content = "url(/fotoForProject/clothes4.jpg)";
             document.getElementById('1d').style.fill="#F7F6F2";
             document.getElementById('2d').style.fill="#F7F6F2";
             document.getElementById('3d').style.fill="#B0947B";

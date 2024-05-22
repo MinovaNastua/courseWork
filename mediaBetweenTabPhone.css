@@ -14,6 +14,13 @@
     }
 }
 
+@media  (max-width: 768px){
+    .loginTubStyle {
+        height: 95%;
+    }
+}
+
+
 @media  (max-width: 733px){
     .servesesArticle {
     width: 583px;
@@ -123,6 +130,18 @@
     top: -13%;
     left: 43%;
 }
+
+.buttonTranslate {
+    width: 100%;
+    font-size: 100%;
+}
+
+.servesesVectorHelp {
+    top: -21%;
+    left: 86%;
+    width: 85px;
+    height: 52px;
+}
 }
 
 @media  (max-width: 685px){
@@ -212,6 +231,21 @@
         height: 141px;
         left: 57%;
         width: 35%;
+    }
+
+    .loginWindowSSecondText {
+        font-size: 20px;
+    }
+    .loginWindowInfoButtonText {
+        height: 8%;
+    }
+
+    .registrationWindow {
+        height: 644px;
+    }
+
+    .loginWindow {
+        height: 446px;
     }
 }
 
@@ -323,6 +357,8 @@
 .reviewLine {
     top: -61%;
 }
+
+
 }
 
 @media  (max-width: 600px){
@@ -440,15 +476,14 @@
     
     .servesesHeader {
         font-size: 289%;
-        top: -102%;
+        top: -94%;
     }
     
     .servesesLitleText {
         font-size: 33px;
-        top: -101%;
+        top: -93%;
         left: 4%;
     }
-
     .servesesVector {
         top: -19%;
         left: 89%;
@@ -662,6 +697,52 @@
         width: 50px;
     }
 }
+
+@media   (max-width: 500px){
+
+    .loginWindowMainText {
+        font-size: 33px;
+    }
+
+    .plaseForInfo {
+        width: 85%;
+        height: 32px;
+    }
+
+    .loginWindowLitleText {
+        font-size: 19px;
+        line-height: 20px;
+    }
+
+    .regWindowVECTOR {
+        top: -87%;
+        left: 89%;
+        width: 8%;
+    }
+
+    .registrationWindow {
+        height: 532px;
+    }
+
+    .loginWindowInfoButtonText {
+        width: 87%;
+    }
+
+    .loginWindow {
+        top: 8%;
+        left: 12%;
+        height: 380px;
+    }
+
+    .loginWindowInfoButton {
+        width: 95%;
+    }
+
+    .loginWindowVECTOR {
+        WIDTH: 9%;
+    }
+}
+
     @media   (max-width: 470px){
         .servesesArticle {
             width: 350px;
@@ -864,6 +945,10 @@
         .reviewLine {
             top: -68%;
         }
+
+        
+
+        
 }
 
 @media  (max-width: 380px){
@@ -947,6 +1032,22 @@
         top: -8%;
         left: 39%;
     }
+
+    .loginWindowSSecondText {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 3%;
+        margin-bottom: 4%;
+    }
+    
+    .loginWindowVECTOR {
+        top: -85%;
+    }
+
+    .loginWindowInfo {
+        margin-top: -1%;
+    }
+
 }
 @media  (max-width: 559px){
 .portfolio {

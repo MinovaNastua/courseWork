@@ -36,18 +36,23 @@
     }
 
     .burgerMenuInMain {
-        margin-top: 1%;
-        width: 40px;
-        height: 43px;
+        margin-top: 4%;
+        width: 52px;
+        height: 52px;
+        margin-left: -2%;
     }
 
     .menuPointText {
-        margin-top: 14%;
-        font-size: 144%;
+        margin-top: 13%;
+        font-size: 160%;
+    }
+
+    .regTubStyle {
+        height: 142%;
     }
 
     .fourElementsInMain {
-        height: 29%;
+        height: 46%;
         margin-bottom: 15%;
     }
 
@@ -221,14 +226,15 @@
 }
 
 .textHide {
-    margin-top: 16%;
+    margin-top: 8%;
     display: block;
 }
 
 .portfolioNewBlock {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    margin-left: 3%;
     justify-content: space-between;
     margin-top: 0%;
 }
@@ -411,7 +417,7 @@
         left: 66%;
         width: 25%;
         height: 15%;
-        content: url(C:/веб/course/fotoForProject/01n2.svg);
+        content: url(/fotoForProject/01n2.svg);
     }
 
         .portfolio {
