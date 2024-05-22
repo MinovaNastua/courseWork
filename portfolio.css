@@ -11,7 +11,7 @@
 .portfolioHeader {
     flex-basis: 19%;
     width: 80%;
-    content: url(C:/веб/course/fotoForProject/portfolio.svg);
+    content: url(fotoForProject/portfolio.svg);
 }
 
 .portfolioSmallHeader{

@@ -11,6 +11,7 @@
   border-bottom-right-radius:28px;
   background:rgba(0, 0, 0, 0);
   height: 11%;
+  transition: transform 0.3s ease; 
 }
 
 .buttonTranslate:hover {
@@ -22,6 +23,7 @@
 .buttonLite{
   border-color:rgba(255, 255, 255, 0);
   background:none;
+  transition: transform 0.3s ease; 
 }
 
 .buttonLite:hover {

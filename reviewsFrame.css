@@ -49,7 +49,7 @@
     width: 97%;
     height: 170px;
     position: relative;
-    content: url(C:/веб/course/fotoForProject/05.svg);
+    content: url(/fotoForProject/05.svg);
 }
 
 .review{
@@ -94,13 +94,13 @@ flex-direction: column;
 .numberOfPunct5star {
     margin-left: 3%;
     margin-top: 2%;
-    content: url(C:/веб/course/fotoForProject/fiveStar.svg);
+    content: url(/fotoForProject/fiveStar.svg);
 }
 
 .numberOfPunct4star {
     margin-left: 3%;
     margin-top: 2%;
-    content: url(C:/веб/course/fotoForProject/fourStar.svg);
+    content: url(/fotoForProject/fourStar.svg);
 }
 
 .nikName{
@@ -118,7 +118,7 @@ border-radius: 26px;
 
 .nikNameFotoMan{
     
-background: url(C:/веб/course/fotoForProject/iconMan.png);
+background: url(/fotoForProject/iconMan.png);
 border: 2px solid #EAE4DD;
 background-size: cover;
     background-position: center;
@@ -126,7 +126,7 @@ background-size: cover;
 
 .nikNameFotoWoman{
     
-    background: url(C:/веб/course/fotoForProject/iconWoman.png);
+    background: url(/fotoForProject/iconWoman.png);
     border: 2px solid #977760;
     background-size: cover;
     background-position: center;

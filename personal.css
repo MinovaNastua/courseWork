@@ -9,7 +9,7 @@
     width: 50%;
     height: 741px;
     flex-basis: 50%;
-    background-image: url(C:/веб/course/fotoForProject/personal.png);
+    background-image: url(fotoForProject/personal.png);
     background-size: cover;
     background-position: center;
     z-index: 1;
@@ -17,7 +17,7 @@
 .numberOfPunct04 {
     top: -188%;
     left: 82%;
-    content: url(C:/веб/course/fotoForProject/04.svg);
+    content: url(fotoForProject/04.svg);
 }
 
 .personMainText {

@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
           registrationForm.reset();
           
           console.log('Регистрация успешна');
-          window.location.href ="C:/веб/course/htmlForClient.html";
+          window.location.href ="/htmlForClient.html";
         displayRegisteredClients();
         });
       });
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
       
           if (matchingClient) {
             console.log('Вход выполнен успешно');
-            window.location.href ="C:/веб/course/htmlForClient.html";
+            window.location.href ="/htmlForClient.html";
           } else {
             console.log('Неверный номер телефона, электронная почта или пароль');
           }
