@@ -358,6 +358,9 @@
     top: -61%;
 }
 
+.headerTextBig {
+    transform: translateX(-10px);
+}
 
 }
 
@@ -446,9 +449,13 @@
         width: 438px;
     }
     .personalVector {
-        top: 30%;
-        left: 83%;
+        top: 11%;
+        left: 71%;
         width: 51px;
+    }
+
+    .porsonalVectorButton {
+        left: 1%;
     }
 
     .personalSkroll {

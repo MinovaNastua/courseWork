@@ -95,11 +95,11 @@
 
 
 @media  (max-width: 400px){
-.serveses {
-    width: 100%;
-    height: 762px;
-    flex-direction: column;
-}
+    .serveses {
+        width: 100%;
+        height: 753px;
+        flex-direction: column;
+    }
 
 .servesesArticle {
    
@@ -110,7 +110,7 @@
 
 .servesesHeader {
     font-size: 191%;
-    top: -67%;
+    top: -58%;
     margin-left: 0%;
 }
 
@@ -118,20 +118,26 @@
     font-size: 18px;
     margin-top: 0;
     line-height: 22px;
-    top: -11%;
+    top: -2%;
 }
 
 
 .servesesLitleText {
     font-size: 19px;
-    top: -65%;
+    top: -55%;
     left: -1%;
 }
 
+.servesesVector2 {
+    left: 0%;
+    top: -26%;
+    width: 48px;
+}
+
 .servesesVector {
-    top: -30%;
-    left: 89%;
-    width: 35px;
+    top: -32%;
+    left: 88%;
+    width: 48px;
 }
 
 .scrollCircum {
@@ -191,7 +197,11 @@
 
     /* ar and vr */
     .arFrame {
-        height: 925px;
+        height: 912px;
+    }
+
+    .exspiriense {
+        height: 794px;
     }
 
     .arFrameFoto {
@@ -249,10 +259,15 @@
     }
 
     .servesesVector {
-        top: -43%;
-        left: 44%;
-        width: 35px;
+        top: -32%;
+        left: 85%;
+        width: 48px;
     }
+    .portfolioVector {
+        top: -49%;
+        left: 44%;
+        width: 48px;
+    }    
 
     
 .personalHeadExs {
@@ -276,7 +291,7 @@
         justify-content: flex-end;
         height: 90%;
         margin-left: 1%;
-        margin-top: 154%;
+        margin-top: 165%;
     }
 
 
@@ -330,29 +345,52 @@
     }
 
     .line2 {
-        top: -105.6%;
+        top: -109.6%;
         left: -38%;
         width: 114.2%;
         border: 2px solid #B0947B;
     }
 
     .line1 {
-        top: -90%;
+        top: -93.5%;
         left: 2.6%;
         width: 81%;
         border: 2px solid #B0947B;
     }
     .personalVector {
         top: -8%;
-        left: 90%;
-        width: 24px;
+        left: 72%;
+        width: 41px;
     }
 
-    .personalSkroll {
-        top: -88%;
+    .porsonalVectorButton {
+        left: 1%;
+    }
+
+    .reviewsHeadHeader {
+        font-size: 25px;
+        line-height: 31PX;
+        margin-left: 12px;
+        margin-top: -5%;
+        margin-bottom: -9%;
+    }
+
+    .reviewScroll {
+        top: -8%;
+        left: 39%;
         width: 21%;
     }
 
+    .review {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 300%;
+        top: 4%;
+        position: relative;
+        transition: all ease-out 1s;
+        left: 0px;
+    }
     .personalMainInfoAllTextUp {
         display: flex;
         flex-direction: column;
@@ -375,7 +413,22 @@
      /* portfolio */
 
      .portfolio {
-        height: 296px;
+        height: 281px;
+    }
+
+    .personalFoto {
+        width: 100%;
+        height: 326px;
+    }
+
+    .personal {
+        width: 100%;
+        height: 812px;
+        background: #977760;
+    }
+
+    .scrollPersonal {
+        height: 1117px;
     }
     .portfolioHeader {
         width: 85%;

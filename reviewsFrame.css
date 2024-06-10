@@ -15,10 +15,11 @@
     position: relative;
     width: 100%;
     top: -57%;
-    height: 56%;
+    height: 61%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .reviewsHeadHeader {
@@ -44,7 +45,7 @@
 }
 
 .numberOfPunct05 {
-    top: -111%;
+    top: -116%;
     left: -34%;
     width: 97%;
     height: 170px;
@@ -56,6 +57,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 300%;
+    position: relative;
+    transition: all ease-out 1s;
+    left: 0px;
 }
 
 .reviewExemple{
@@ -95,6 +100,7 @@ flex-direction: column;
     margin-left: 3%;
     margin-top: 2%;
     content: url(/fotoForProject/fiveStar.svg);
+    transition: all ease-out 1s;
 }
 
 .numberOfPunct4star {
@@ -132,6 +138,25 @@ background-size: cover;
     background-position: center;
 }
 
+.nikNameFotoWoman2{
+    background: url(/fotoForProject/iconBrown.svg);
+}
+.nikNameFotoWoman1{
+    background: url(/fotoForProject/WOMAN2.jpg);
+    background-size: cover;
+        background-position: center;
+}
+
+.nikNameFotoMan1{
+    background: url(/fotoForProject/iconWhite.svg);
+}
+
+.nikNameFotoMa2{
+    background: url(/fotoForProject/evgeniy.png);
+    background-size: cover;
+        background-position: center;
+}
+
 .nikNameName{
 font-family: 'Poiret One';
 font-style: normal;
@@ -144,18 +169,26 @@ margin-left: 3%;
 
 .reviewVector {
     position: relative;
-    /* width: 10%; */
-    /* height: 124px; */
-    left: 96%;
-    top: -31%;
+    width: 7%;
+    height: 278px;
+    left: 94%;
+    top: -35%;
 }
 
-
+.reviewVector2 {
+    position: relative;
+    position: relative;
+    width: 5%;
+    height: 278px;
+    left: 0%;
+    top: -29%;
+    transform: rotate(180deg)
+}
 
 
 .footer {
     position: relative;
-    top: -60%;
+    top: -65%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -225,11 +258,12 @@ margin-left: 3%;
     width: 100%;
     height: 0px;
     left: 0px;
-    top: -59%;
+    top: -64%;
     border: 1px solid #EAE4DD;
 }
 
 .reviewScroll {
-    top: -3%;
-    left: 46.5%;
+    top: -10%;
+    width: 9%;
+    left: 45.5%;
 }

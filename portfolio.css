@@ -27,6 +27,11 @@
     flex-basis: 15%;
 }
 
+.fotoStyle{
+    
+  transition: all 1s ease; 
+}
+
 .portfolioFotoBlock {
     /* flex-basis: 68%; */
     margin-top: 2%;
