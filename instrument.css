@@ -11,6 +11,7 @@
   border-bottom-right-radius:28px;
   background:rgba(0, 0, 0, 0);
   height: 11%;
+  transition: transform 0.3s ease; 
 }
 
 .buttonTranslate:hover {
@@ -22,6 +23,8 @@
 .buttonLite{
   border-color:rgba(255, 255, 255, 0);
   background:none;
+  transition: transform 0.3s ease; 
+  
 }
 
 .buttonLite:hover {
@@ -31,18 +34,66 @@
 
 .buttonLiteSun{
   display:block;
+  width: 100%;
+  height: 100%;
 }
 
 .buttonLiteMoon{
   display: none;
+  width: 100%;
+  height: 100%;
 }
-
-
-
- 
 
 .open {
   opacity: 1;
   visibility: visible;
   transition-delay: 0s;
+}
+
+.porsonalVectorButton{
+  border-color:rgba(255, 255, 255, 0);
+  background:none;
+  transition: transform 0.3s ease; 
+  left: 0%;
+}
+
+.porsonalVector2Button{
+  border-color:rgba(255, 255, 255, 0);
+  background:none;
+  transition: transform 0.3s ease; 
+  position: relative;
+    width: 61px;
+    height: 61px;
+    top: -64%;
+    left: 91%;
+}
+
+.porsonalVectorButton:hover{
+  transform: scale(1.2)
+}
+
+.porsonalVector2Button:hover{
+  transform: scale(1.2)
+}
+
+.personalSkrollPagin1 {
+  border-color: rgba(255, 255, 255, 0);
+  background: none;
+  transition: transform 0.3s ease;
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  color: #69432C;
+}
+
+.personalSkrollPagin2{
+  border-color:rgba(255, 255, 255, 0);
+  background:none;
+  transition: transform 0.3s ease; 
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  color: #69432C;
 }

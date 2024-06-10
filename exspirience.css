@@ -9,7 +9,7 @@
     width: 50%;
     height: 751px;
     flex-basis: 50%;
-    background-image: url(C:/веб/course/fotoForProject/exspiriense.png);
+    background-image: url(fotoForProject/exspiriense.png);
     background-size: cover;
     background-position: center;
 }
@@ -38,5 +38,5 @@
 .numberOfPunct03 {
     top: -151%;
     left: 3%;
-    content: url(C:/веб/course/fotoForProject/03.svg);
+    content: url(fotoForProject/03.svg);
 }

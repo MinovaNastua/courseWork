@@ -8,7 +8,7 @@
     width: 50%;
     height: 741px;
     flex-basis: 50%;
-    background-image: url(C:/веб/course/fotoForProject/modernTehnology.png);
+    background-image: url(fotoForProject/modernTehnology.png);
     background-size: cover;
     background-position: center;
 }
@@ -61,7 +61,7 @@ line-height: 0px;
   .numberOfPunct01{
     top: -156%;
     left: 82%;
-    content: url('C:/веб/course/fotoForProject/01.svg');
+    content: url('fotoForProject/01.svg');
 }
 
 .modernTecMainText {

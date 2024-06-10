@@ -7,13 +7,14 @@
     transition: all 1S;
 }
 
-.servesesFoto{
+.servesesFoto {
     width: 50%;
     height: 741px;
-    flex-basis: 50%;
+    flex-basis: 54%;
     overflow: hidden;
     transition: all 1S;
 }
+
 .servesesFoto-SliderLine{
     width: 300%;
     height:100%;
@@ -26,7 +27,7 @@
     height: 100%;
     width: 33.3%;
 
-    background-image: url(C:/веб/course/fotoForProject/servesesFoto1.png);
+    background-image: url(/fotoForProject/servesesFoto1.png);
     background-size: cover;
     
  background-position: center;
@@ -35,7 +36,7 @@
     height: 100%;
     width: 33.3%;
     
-    background-image: url(C:/веб/course/fotoForProject/EXTERIOR1.jpg);
+    background-image: url(/fotoForProject/EXTERIOR1.jpg);
     background-size: cover;
     
  background-position: center;
@@ -44,20 +45,22 @@
     height: 100%;
     width: 33.3%;
     
-    background-image: url(C:/веб/course/fotoForProject/clothes.jpg);
+    background-image: url(/fotoForProject/clothes.jpg);
     background-size: cover;
     
  background-position: center;
 }
 
-    .servesesArticle {
-        display: flex;
-        flex-basis: 43%;
-        width: 300px;
-        margin-left: 1%;
-        MARGIN-TOP: 1%;
-        flex-direction: column;
-    }
+
+
+.servesesArticle {
+    display: flex;
+    flex-basis: 43%;
+    width: 300px;
+    margin-left: 2%;
+    MARGIN-TOP: 1%;
+    flex-direction: column;
+}
 
     .servesesVector2{
         width: 61px;
@@ -100,6 +103,7 @@
 
 .servesesMainInfo{
     position: relative;
+    width: 108%;
     font-family: 'Poiret One';
     font-style: normal;
     font-weight: 400;
@@ -143,7 +147,6 @@
 width: 15px;
 height: 15px;
 flex: none;
-order: 1;
 flex-grow: 0;
 }
 

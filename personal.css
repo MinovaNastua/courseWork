@@ -9,7 +9,7 @@
     width: 50%;
     height: 741px;
     flex-basis: 50%;
-    background-image: url(C:/веб/course/fotoForProject/personal.png);
+    background-image: url(/fotoForProject/personal.png);
     background-size: cover;
     background-position: center;
     z-index: 1;
@@ -17,7 +17,7 @@
 .numberOfPunct04 {
     top: -188%;
     left: 82%;
-    content: url(C:/веб/course/fotoForProject/04.svg);
+    content: url(fotoForProject/04.svg);
 }
 
 .personMainText {
@@ -31,4 +31,45 @@
     line-height: 75PX;
     margin-top: -26px;
     word-spacing: 187px;
+}
+
+.fotoPerson-SliderLine{
+    width: 400%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    left: 0px;
+    transition: all ease 1s;
+}
+
+.fotoPerson-Slide1{
+    height: 100%;
+    width: 25%;
+    background-image: url(/fotoForProject/evgeniy.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.fotoPerson-Slide2{
+    height: 100%;
+    width: 25%;
+    background-image: url(/fotoForProject/step.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fotoPerson-Slide3{
+    height: 100%;
+    width: 25%;
+    background-image: url(/fotoForProject/alex.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fotoPerson-Slide4{
+    height: 100%;
+    width: 25%;
+    background-image: url(/fotoForProject/vik.jpg);
+    background-size: cover;
+    background-position: center;
 }

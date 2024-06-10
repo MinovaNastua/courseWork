@@ -6,6 +6,24 @@
     background-position: center;
 }
 
+.profileFrame {
+    width: 100%;
+    height: 870px;
+    background-color: #E6E9EE;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.profileFrameFlex {
+    display: flex;
+    height: 71%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+}
+
 .requestFrameNav{
     display: flex;
     width: 100%;
@@ -59,11 +77,7 @@
 
 .requestFrameFormFirstPlace {
     width: 90%;
-    height: 59px;
-    background: #F7F6F2;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 7%;
 }
 
 .requestFrameFormSmallText{
@@ -79,10 +93,17 @@ color: #8C694F;
 
 }
 
+textarea:focus {
+    outline: none;
+  }
+
 .requestFrameFormSecondPlace {
     width: 90%;
     height: 180px;
     background: #F7F6F2;
+border-color:rgba(255, 255, 255, 0);
+resize: vertical; /* позволяет пользователю изменять высоту textarea */
+  box-sizing: border-box; 
 }
 
 .requestFrameFormThirtPlace{
@@ -97,9 +118,12 @@ width: 258px;
 height: 174px;
 background: #F7F6F2;
 display: flex;
-
+background-size: cover;
+    background-position: center;
 align-items: center;
 justify-content: center;
+
+transition: all ease 1s;
 }
 
 .requestFrameFormSmallTextColor1{
@@ -203,3 +227,119 @@ left: -26%;
 
 }
 
+.dropdownmenu{
+        width: 81%;
+        height: 6%;
+        top: -70%;
+        left: 9.5%;
+        position: relative;
+        background: #F7F6F2;
+        opacity: 0.7;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: all ease 1s;
+}
+
+.dropdownmenumein{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.dropdownmenuOpen {
+    height: 25%;
+    opacity: 0.9;
+}
+
+.requestFrameFormSmallTextPunct{
+    /* display: none; */
+    opacity: 0;
+    transition: all ease 1.5s;
+    overflow: hidden;
+    
+}
+
+.dropdownmenuButton{
+    background: none;
+    border-color:rgba(255, 255, 255, 0);
+    transition: all ease 1.5s;
+}
+
+.rotate {
+    transition: all ease 1.5s;
+    transform: rotate(180deg);
+  }
+
+  .passwordWindow {
+    width: 70%;
+    opacity: 0;
+    visibility: hidden;
+    height: 70%;
+    position: fixed;
+    top: 14%;
+    left: 15%;
+    display: flex;
+    background: #F0ECE6;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.massageWindow
+{
+    width: 40%;
+    opacity: 0;
+    visibility: hidden;
+    height: 40%;
+    position: fixed;
+    top: 14%;
+    left: 30%;
+    display: flex;
+    background: #F0ECE6;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.open {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+  }
+
+  .picture {
+    background-color: pink;
+    width: 47%;
+    height: 43%;
+    background-size: cover;
+    background-position: center;
+    transition: all ease 1s;
+}
+
+  .passwordWindowpicture {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    width: 90%;
+    height: 85%;
+}
+
+.textInput{
+    
+    line-height: 100%;
+}
+
+.textInput1{
+    font-size: 306%;
+    font-weight: 700;
+}
+
+.textInput2{
+    font-weight: 600;
+    font-size: 251%;
+}
