@@ -10,7 +10,6 @@ navbarToggle.addEventListener('click', function() {
     document.querySelector('.leftElementBlock ').style.flexDirection="row";
     document.querySelector('.buttonTranslate').style.width="100%";
     document.querySelector('.burgerMenuInMain ').classList.toggle('rotate');
-    console.log("43");
   }
   else{
     
@@ -21,7 +20,6 @@ navbarToggle.addEventListener('click', function() {
     document.querySelector('.leftElementBlock').style.width=222+"px";
     navbarMenu.style.display='flex';
     document.querySelector('.burgerMenuInMain ').classList.toggle('rotate');
-    console.log("fd");
   }
 
 });

@@ -51,6 +51,8 @@
  background-position: center;
 }
 
+
+
 .servesesArticle {
     display: flex;
     flex-basis: 43%;
@@ -145,7 +147,6 @@
 width: 15px;
 height: 15px;
 flex: none;
-order: 1;
 flex-grow: 0;
 }
 

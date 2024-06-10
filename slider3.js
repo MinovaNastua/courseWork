@@ -1,12 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
     let button = document.querySelector('.buttonLite');
+    
+        
     button.addEventListener('click', function() 
     {
-        if(document.querySelector('.buttonLiteSun').style.display==="block")
+        if(localStorage.getItem('tema') === 'sum')
         {
         document.querySelector('.buttonLiteSun').style.display="none";
         document.querySelector('.buttonLiteMoon').style.display="block";
+        localStorage.setItem('tema','moon');
 
+       
         //1
         document.querySelector('body').style.backgroundColor="#977760";
         document.querySelector('.mainBlockFon').style.backgroundImage="url(/fotoForProject/mainFon4.png)";
@@ -14,7 +18,33 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.leftElementBlock').style.backgroundColor="#977760";
         document.querySelector('.headerTextBig').style.color="#F7F6F2";
         document.querySelector('.headerTextSmall').style.color="#F7F6F2";
+        document.querySelector('.registrationWindow').style.backgroundColor="#B0947B";
+        
+        document.querySelector('.loginWindow').style.backgroundColor="#B0947B";
+        document.querySelector('.passwordWindow').style.backgroundColor="#B0947B";
+        document.querySelectorAll('.loginWindowMainText').forEach(element => {
+            element.style.color = '#F7F6F2';
+          });
+          document.querySelectorAll('.loginWindowSSecondText').forEach(element => {
+            element.style.color = '#F7F6F2';
+          });
+          document.querySelectorAll('.loginWindowLitleText').forEach(element => {
+            element.style.color = '#F7F6F2';
+          });
+          document.querySelectorAll('.loginWindowLitleTextInfo').forEach(element => {
+            element.style.color = '#69432C';
+          });
+          
+          document.querySelectorAll('.Obligatoryfield').forEach(element => {
+            element.style.color = '#F7F6F2';
+          });
+          
+        document.querySelectorAll('.plaseForInfo').forEach(element => {
+            element.style.background = 'linear-gradient(90deg, #F7F6F2 0%, rgba(247, 246, 242, 0) 100%)';
+            
+          });
 
+         
         //2
         document.querySelector('.servesesFoto').style.filter="brightness(0.6)";
         document.querySelector('.serveses').style.backgroundColor="#977760";
@@ -52,11 +82,66 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.reviewScroll').style.filter="brightness(0.9)";
 
 
+          document.querySelectorAll('.loginWindowInfoButton').forEach(element => {
+            element.style.background = 'rgb(247, 246, 242)';
+          });
+
+          document.querySelectorAll('.loginWindowInfoButtonText').forEach(element => {
+            element.style.color = '#B0947B';
+          });
+          document.querySelectorAll('.oginWindowLitleText').forEach(element => {
+            element.style.color = '#B0947B';
+          });
+          
+          
         }
         else{
+            localStorage.setItem('tema','sum');
+            
+         
+
+            document.querySelector('.loginWindow').style.backgroundColor="#F0ECE6";
+            document.querySelectorAll('.oginWindowLitleText').forEach(element => {
+              element.style.color = '#B0947B';
+            });
+            document.querySelector('.passwordWindow').style.backgroundColor="#F0ECE6";
             document.querySelector('.buttonLiteSun').style.display="block";
             document.querySelector('.buttonLiteMoon').style.display="none";
 
+        document.querySelector('.registrationWindow').style.backgroundColor="#F0ECE6";
+
+            document.querySelectorAll('.loginWindowSSecondText').forEach(element => {
+                element.style.color = '#69432C';
+              });
+              document.querySelectorAll('.loginWindowMainText').forEach(element => {
+                element.style.color = '#69432C';
+              });
+              document.querySelectorAll('.loginWindowLitleText').forEach(element => {
+                element.style.color = '#69432C';
+              });
+              document.querySelectorAll('.Obligatoryfield').forEach(element => {
+                element.style.color = '#69432C';
+              });
+
+              document.querySelectorAll('.plaseForInfo').forEach(element => {
+                element.style.background = null;
+                
+              });
+
+                document.querySelectorAll('.loginWindowInfoButton').forEach(element => {
+                    element.style.background = '#8C694F';
+                  });
+        
+                  document.querySelectorAll('.loginWindowInfoButtonText').forEach(element => {
+                    element.style.color = '#F0ECE6';
+                  });
+    
+
+        
+        
+          document.querySelectorAll('.loginWindowLitleTextInfo').forEach(element => {
+            element.style.color = '#F7F6F2';
+          });
             // 1
             document.querySelector('body').style.backgroundColor="#B0947B";
             document.querySelector('.mainBlockFon').style.backgroundImage="url(/fotoForProject/mainFon.jpg)";
@@ -101,7 +186,20 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelector('.mainTextREVIEWS').style.color="#8C694F";
             document.querySelector('.reviewScroll').style.filter="brightness(1)";
 
+
+            
         }
     }
-);});
+);
+
+
+if (localStorage.getItem('tema') =='sum'){
+    localStorage.setItem('tema','moon');
+  }
+  else{
+      localStorage.setItem('tema','sum') 
+  }
+  button.click();
+
+});
 

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="script.js"> </script>
-        <script src="slider1.js"> </script>
+        
         <script src="slider2.js"> </script>
-        <script src="slider3.js"> </script>
         <script src="BurgerMenu.js"> </script>
         <script src="LoginWindow.js"> </script>
+        <script src="an.js"> </script>
+        <link rel="icon" type="image/png" sizes="16x16" href="fotoForProject/favicon.png">
         <link rel="stylesheet" href="projectStyleMainBlock.css" >
         <link rel="stylesheet" href="servesesFrame.css" >
         <link rel="stylesheet" href="modernTehnic.css" >
@@ -65,11 +65,14 @@
                                     </svg>
                                     
                                 </button>
-                                <button class="buttonTranslate" id="languageToggle">RU</button>
-                                <svg class="vkElement" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <button class="buttonTranslate" id="languageToggle"></button>
+                                <script  src="script.js"> </script>
+                               
+                                <a class="buttonIacorStyle" href="https://instagram.com"><svg class="vkElement" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path opacity="0.75" fill-rule="evenodd" clip-rule="evenodd" d="M10.2852 0.105C12.1514 0.0190909 12.7464 0 17.5 0C22.2536 0 22.8486 0.0206818 24.7132 0.105C26.5777 0.189318 27.8505 0.486818 28.9641 0.917955C30.1302 1.35864 31.1882 2.0475 32.0632 2.93841C32.9541 3.81182 33.6414 4.86818 34.0805 6.03591C34.5132 7.14955 34.8091 8.42227 34.895 10.2836C34.9809 12.153 35 12.748 35 17.5C35 22.2536 34.9793 22.8486 34.895 24.7148C34.8107 26.5761 34.5132 27.8489 34.0805 28.9625C33.6414 30.1304 32.9529 31.1885 32.0632 32.0632C31.1882 32.9541 30.1302 33.6414 28.9641 34.0805C27.8505 34.5132 26.5777 34.8091 24.7164 34.895C22.8486 34.9809 22.2536 35 17.5 35C12.7464 35 12.1514 34.9793 10.2852 34.895C8.42386 34.8107 7.15114 34.5132 6.0375 34.0805C4.86965 33.6413 3.81153 32.9529 2.93682 32.0632C2.04651 31.1892 1.35755 30.1316 0.917955 28.9641C0.486818 27.8505 0.190909 26.5777 0.105 24.7164C0.0190909 22.847 0 22.252 0 17.5C0 12.7464 0.0206818 12.1514 0.105 10.2868C0.189318 8.42227 0.486818 7.14955 0.917955 6.03591C1.3582 4.86831 2.04769 3.81073 2.93841 2.93682C3.81188 2.04671 4.86893 1.35775 6.03591 0.917955C7.14955 0.486818 8.42386 0.190909 10.2852 0.105ZM24.57 3.255C22.7245 3.17068 22.1709 3.15318 17.4984 3.15318C12.8259 3.15318 12.2723 3.17068 10.4268 3.255C8.71977 3.33295 7.79386 3.61773 7.17659 3.85795C6.36046 4.17614 5.77659 4.55318 5.16409 5.16568C4.58348 5.73054 4.13665 6.41818 3.85636 7.17818C3.61614 7.79545 3.33136 8.72136 3.25341 10.4284C3.16909 12.2739 3.15159 12.8275 3.15159 17.5C3.15159 22.1725 3.16909 22.7261 3.25341 24.5716C3.33136 26.2786 3.61614 27.2045 3.85636 27.8218C4.13636 28.5807 4.58341 29.2695 5.16409 29.8343C5.72886 30.415 6.41773 30.862 7.17659 31.142C7.79386 31.3823 8.71977 31.667 10.4268 31.745C12.2723 31.8293 12.8243 31.8468 17.4984 31.8468C22.1725 31.8468 22.7245 31.8293 24.57 31.745C26.277 31.667 27.203 31.3823 27.8202 31.142C28.6364 30.8239 29.2202 30.4468 29.8327 29.8343C30.4134 29.2695 30.8605 28.5807 31.1405 27.8218C31.3807 27.2045 31.6655 26.2786 31.7434 24.5716C31.8277 22.7261 31.8452 22.1725 31.8452 17.5C31.8452 12.8275 31.8277 12.2739 31.7434 10.4284C31.6655 8.72136 31.3807 7.79545 31.1405 7.17818C30.8223 6.36205 30.4452 5.77818 29.8327 5.16568C29.2678 4.58511 28.5802 4.13829 27.8202 3.85795C27.203 3.61773 26.277 3.33295 24.57 3.255ZM15.2632 22.8948C16.5115 23.4144 17.9015 23.4845 19.1958 23.0932C20.4901 22.7018 21.6084 21.8733 22.3596 20.749C23.1109 19.6248 23.4485 18.2746 23.3148 16.929C23.1812 15.5835 22.5846 14.3261 21.6268 13.3716C21.0163 12.7614 20.2781 12.2942 19.4653 12.0036C18.6525 11.713 17.7855 11.6063 16.9265 11.691C16.0675 11.7757 15.238 12.0498 14.4976 12.4936C13.7573 12.9374 13.1246 13.5398 12.645 14.2575C12.1655 14.9752 11.851 15.7902 11.7242 16.644C11.5975 17.4978 11.6616 18.3691 11.912 19.1951C12.1624 20.0212 12.5928 20.7814 13.1723 21.4211C13.7518 22.0609 14.4659 22.5642 15.2632 22.8948ZM11.1395 11.1395C11.9748 10.3043 12.9664 9.64171 14.0577 9.18967C15.1491 8.73762 16.3188 8.50496 17.5 8.50496C18.6812 8.50496 19.8509 8.73762 20.9423 9.18967C22.0336 9.64171 23.0252 10.3043 23.8605 11.1395C24.6957 11.9748 25.3583 12.9664 25.8103 14.0577C26.2624 15.1491 26.495 16.3188 26.495 17.5C26.495 18.6812 26.2624 19.8509 25.8103 20.9423C25.3583 22.0336 24.6957 23.0252 23.8605 23.8605C22.1736 25.5474 19.8856 26.495 17.5 26.495C15.1144 26.495 12.8264 25.5474 11.1395 23.8605C9.45265 22.1736 8.50496 19.8856 8.50496 17.5C8.50496 15.1144 9.45265 12.8264 11.1395 11.1395ZM28.49 9.84455C28.697 9.64929 28.8627 9.41449 28.9773 9.15405C29.0919 8.89361 29.1531 8.61281 29.1573 8.3283C29.1614 8.04378 29.1084 7.76133 29.0014 7.49765C28.8945 7.23398 28.7357 6.99445 28.5345 6.79324C28.3333 6.59204 28.0938 6.43325 27.8301 6.32628C27.5664 6.21931 27.2839 6.16633 26.9994 6.17047C26.7149 6.17462 26.4341 6.23581 26.1737 6.35043C25.9132 6.46504 25.6784 6.63074 25.4832 6.83773C25.1034 7.24027 24.8955 7.77497 24.9036 8.3283C24.9117 8.88163 25.1351 9.41004 25.5264 9.80134C25.9177 10.1926 26.4461 10.416 26.9994 10.4241C27.5528 10.4322 28.0875 10.2243 28.49 9.84455Z" fill="#F7F6F2"/>
-                                </svg>
-                                <svg class="vkElement" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                </svg></a>
+
+                                <a class="buttonIacorStyle" href="https://ru-ru.facebook.com"><svg class="vkElement" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g opacity="0.75" clip-path="url(#clip0_30_27)">
                                     <mask id="mask0_30_27" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="35" height="35">
                                     <path d="M0 0H35V35H0V0Z" fill="white"/>
@@ -83,11 +86,13 @@
                                     <rect width="35" height="35" fill="white"/>
                                     </clipPath>
                                     </defs>
-                                </svg>
-                                <svg class="telegramElement" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                </svg></a>
+
+                                <a class="buttonIacorStyle" href="https://web.telegram.org"><svg class="telegramElement" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path opacity="0.75" d="M14.0791 26.2792L30.1463 32.6651C30.4162 32.7729 30.7044 32.8123 30.9898 32.7804C31.2752 32.7485 31.5506 32.6462 31.7959 32.4809C32.0411 32.3155 32.25 32.0914 32.4073 31.8249C32.5645 31.5583 32.6662 31.2561 32.7048 30.9403L35.9827 3.40971C36.1822 1.73354 34.6194 0.483208 33.2404 1.2124L2.09123 17.7331C0.551182 18.5498 0.666685 21.0193 2.27673 21.6552L6.54685 23.343L8.87442 24.2511M20.2497 28.7293L16.7671 35.1968C15.6296 36.768 13.3388 35.8794 13.3388 33.8687V28.6905C13.3389 27.7133 13.67 26.7719 14.2663 26.0537L21.0408 17.8867" stroke="#F7F6F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                                <svg class="vkElement" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                </svg></a>
+                                
+                                <a class="buttonIacorStyle" href="https://vk.com"><svg class="vkElement" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g opacity="0.75" clip-path="url(#clip0_30_35)">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M34.1979 8.67419C34.44 7.87794 34.1979 7.29169 33.0385 7.29169H29.2104C28.2362 7.29169 27.7871 7.79773 27.5435 8.35627C27.5435 8.35627 25.5967 13.0171 22.839 16.0446C21.9465 16.9225 21.541 17.2011 21.054 17.2011C20.8104 17.2011 20.4444 16.9225 20.4444 16.1248V8.67419C20.4444 7.71752 20.176 7.29169 19.3652 7.29169H13.3452C12.7371 7.29169 12.371 7.73502 12.371 8.15648C12.371 9.0621 13.7506 9.2721 13.8921 11.8213V17.36C13.8921 18.5748 13.669 18.795 13.1819 18.795C11.884 18.795 8.72667 14.1123 6.85271 8.75439C6.48958 7.71169 6.12208 7.29169 5.14354 7.29169H1.3125C0.21875 7.29169 0 7.79773 0 8.35627C0 9.35085 1.29792 14.2917 6.04479 20.8265C9.20937 25.289 13.6646 27.7084 17.7231 27.7084C20.1571 27.7084 20.4575 27.1717 20.4575 26.2456V22.8725C20.4575 21.7977 20.6879 21.5834 21.4594 21.5834C22.0281 21.5834 23.0008 21.8634 25.2729 24.0144C27.8687 26.565 28.296 27.7084 29.7573 27.7084H33.5854C34.6792 27.7084 35.2275 27.1717 34.9125 26.11C34.5654 25.0542 33.3258 23.5215 31.6823 21.7029C30.7898 20.6675 29.451 19.5519 29.0442 18.9934C28.4769 18.2773 28.6387 17.9579 29.0442 17.3206C29.0442 17.3206 33.7108 10.8661 34.1965 8.67419" fill="#F4F1EC"/>
                                     </g>
@@ -96,24 +101,24 @@
                                     <rect width="35" height="35" fill="white"/>
                                     </clipPath>
                                     </defs>
-                                </svg>                                                                                                                                                                        
+                                </svg>   </a>
+                                                                                                                                                                                                     
                             </div>
                         </div>
 
-                        <header class="headerTextBig">Design studio</header>
+                        <header class="animate-on-scroll headerTextBig">Design studio</header>
                         <p class="headerTextSmall">by BRU</p>
 
                         <div class="overlay"></div>
                         
                         <div class="loginWindow">
                             <form id="login-form" class="loginWindowInfo">
-                                <p class="loginWindowMainText">Вход</p>
-                                <p class="loginWindowSSecondText">Номер телефона или email</p>
-                                <input  class="plaseForInfo" type="text" name="emailOrPhone" required>
-                                <p class="loginWindowSSecondText">Номер телефона</p>
-                                <input  class="plaseForInfo" type="tel" name="password"  required>
-                                <p class="loginWindowLitleText">Забыли пароль?</p>
-                                <button class="loginWindowInfoButton loginWindowSSecondText" id="regWindowInfoButton" type="submit">Войти</button>
+                                <p class="loginWindowMainText" id="login-form-login">Вход</p>
+                                <p class="loginWindowSSecondText" id="login-form-num">Номер телефона или email</p>
+                                <input  class="plaseForInfo loginWindowLitleText loginWindowLitleTextInfo" type="text" name="emailOrPhone" required>
+                                <p class="loginWindowSSecondText" id="login-form-puss">Пароль</p>
+                                <input  class="plaseForInfo loginWindowLitleText loginWindowLitleTextInfo" type="tel" name="password"  required>
+                                <button class="loginWindowInfoButtonText loginWindowInfoButton loginWindowSSecondText" id="logWindowInfoButton" type="submit">Войти</button>
                               </form>
 
 
@@ -144,17 +149,43 @@
                             </DIV> -->
 
                             <form id="registration-form" class="regWindowInfo">
-                                <p class="loginWindowMainText">Регистрация</p>
-                                <p class="loginWindowSSecondText">ФИО</p>
-                                <input  class="plaseForInfo" type="text" name="fullName" required>
-                                <p class="loginWindowSSecondText">Номер телефона</p>
-                                <input  class="plaseForInfo" type="tel" name="phoneNumber"  required>
-                                <p class="loginWindowSSecondText">Email</p>
-                                <input class="plaseForInfo"  type="email" name="email" required>
-                                <p class="loginWindowSSecondText">Пароль</p>
-                                <input class="plaseForInfo" type="password" name="password"  required>
-                                <p class="loginWindowLitleText">Нажимая “зарегистрироваться”, я принимаю все условия</p>
-                                <button class="loginWindowInfoButton loginWindowSSecondText loginWindowInfoButtonText" id="regWindowInfoButton" type="submit">Зарегистрироваться</button>
+                                <p class="loginWindowMainText" id="regWindowInfo1">Регистрация</p>
+                                <p class="loginWindowSSecondText" id="fio">ФИО <em class="loginWindowLitleText Obligatoryfield">Обязательное поле</em></p>
+                                <input  class="plaseForInfo loginWindowLitleText loginWindowLitleTextInfo" type="text" name="fullName" required>
+                                <p class="loginWindowSSecondText" id="NUMBERfIELD">Номер телефона <em class="loginWindowLitleText Obligatoryfield">Обязательное поле</em></p>
+                                <input  class="plaseForInfo loginWindowLitleText loginWindowLitleTextInfo" id="tel" type="tel" name="phoneNumber"  required>
+                                <p class="loginWindowSSecondText">Email <em class="loginWindowLitleText Obligatoryfield">Обязательное поле</em></p>
+                                <input class="plaseForInfo loginWindowLitleText loginWindowLitleTextInfo"  type="email" name="email" required>
+                                <p class="loginWindowSSecondText" id="birthdatefIELD">Дата рождения <em class="loginWindowLitleText Obligatoryfield">Обязательное поле</em></p>
+                                <input class="plaseForInfo loginWindowLitleTextInfo"  type="date" id="birthdate" name="birthdate" required>
+                                <p class="loginWindowSSecondText" id="passwordfIELD">Пароль: <em class="Obligatoryfield loginWindowLitleText ">Обязательное поле</em></p>
+                                <!-- <input class="plaseForInfo" type="password" name="password"  required> -->
+                                
+                                <select class="plaseForInfo loginWindowLitleText oginWindowLitleText loginWindowLitleTextInfo"  id="password-method" name="password-method" >
+                                    <option class="loginWindowLitleText oginWindowLitleText"  id="password-method-choose" value="">Выберите способ</option>
+                                    <option class="loginWindowLitleText oginWindowLitleText " id="password-method-manual" value="manual">Ввести самостоятельно</option>
+                                    <option class="loginWindowLitleText oginWindowLitleText " id="password-method-auto"  value="auto">Сгенерировать автоматически</option>
+                                </select>
+
+                                <div class="form-group" id="manual-password-group" style="display: none;">
+                                    <input  class="plaseForInfoForPassword loginWindowLitleText loginWindowLitleTextInfo"   type="password" id="password" name="password" >
+                                    <label class="loginWindowSSecondText" id="password-confirm-group"  for="password-confirm">Подтверждение пароля:</label>
+                                    <input  class="plaseForInfoForPassword loginWindowLitleText loginWindowLitleTextInfo"   type="password" id="password-confirm" name="password-confirm" >
+                                  </div>
+
+                                  <input  class="plaseForInfo loginWindowLitleText loginWindowLitleTextInfo" style="display: none;"  type="password" id="password-method-auto" name="password"> 
+
+                                  <label  class="loginWindowSSecondText" id="nicknamefIELD"  for="nickname">Никнейм:</label>
+                                
+                                        <input  class="plaseForInfo loginWindowLitleText loginWindowLitleTextInfo" type="text" id="nickname" name="nickname" >
+                                        <button  class="loginWindowInfoButton loginWindowSSecondText loginWindowInfoButtonText loginWindowInfoButtonTextnickname"  type="button" id="generate-nickname">Сгенерировать никнейм</button>
+                                  
+                                        <div>
+                                            <input  type="checkbox" id="user-agreement" name="user-agreement" >
+                                <label  class="loginWindowLitleText"  id="checkBoxReg" for="checkBoxReg">Нажимая “зарегистрироваться”, я принимаю  <a href="#" id="user-agreement-link">все условия</a></label>
+                               
+                                        </div>
+                                 <button class=" loginWindowInfoButtonText loginWindowInfoButton loginWindowSSecondText" id="regWindowInfoButton" type="submit">Зарегистрироваться</button>
                               </form>
 
 
@@ -165,10 +196,19 @@
                                 
                         </div>
 
-                        
+                        <div class="passwordWindow" id="passwordWindow">
+                            <p class="loginWindowMainText" id="passwordWindowtext"></p>
+                            <p class="loginWindowSSecondText" id="passwordWindowCod"></p>
+                            <button class=" loginWindowInfoButtonText loginWindowInfoButton loginWindowSSecondText" id="passwordWindowButton" >Назад</button>
+                        </div>
                     </div>
 
+                    
+        <script src="slider3.js"> </script>
+
                     <div class="serveses" id="servesesFrame">
+                        
+                     <script src="slider1.js"> </script>
                         <div class="servesesFoto" id="servesesFoto">
                             <div class="servesesFoto-SliderLine">
                                 <div class="servesesFoto-Slide1"></div>
@@ -177,7 +217,7 @@
                             </div>
                         </div>
                         <article class="servesesArticle"> 
-                            <p class="servesesLitleText" id="serveses1">Услуги</p>
+                            <p class="servesesLitleText animate-on-scroll an" id="serveses1">Услуги</p>
                             <header class="servesesHeader" id = "interior">ИНТЕРЬЕР</header>
                             <main class="servesesMainInfo" id="servesesMainInfo">Интерьер - это искусство создания пространства, где архитектура, дизайн и функциональность взаимодействуют в гармонии. Он воплощает настроение, стиль и характер, отражая индивидуальность и потребности его обитателей. Интерьерный дизайн способен преобразить обычное помещение в уникальное и уютное место, вызывающее эмоции и вдохновляющее жизнь.</main>
                         </article>
@@ -211,7 +251,7 @@
                         <div class="modernTecFoto"></div>
                         <div class="modernTecHead">
                             <p class="modernTecHeadSmallText SmallTextEl1" id="5Reason">5 причин выбрать нас</p>
-                            <header class="modernTecHeadHeader modernTecHeadHeaderMein" id="a">Современные сред<em class="modernTecHeadHeaderEm modernTecHeadHeader" id="b">ства визуализации</em></header>
+                            <header class="modernTecHeadHeader modernTecHeadHeaderMein animate-on-scroll an" id="a">Современные сред<em class="modernTecHeadHeaderEm modernTecHeadHeader" id="b">ства визуализации</em></header>
                         </div>
                         <main class="modernTecMainText"  id = "modernTecMainText">3D-моделирование позволяет дизайнерам создавать реалистичные визуализации продуктов и интерьеров, помогая клиентам лучше представить себе окончательный результат. Кроме того, оно облегчает коллаборацию между дизайнерами и заказчиками, ускоряет процесс принятия решений и снижает возможность ошибок, что делает его неотъемлемой частью современного процесса дизайна. </main>
                         <div class="svgbackground numberOfPunct01" id = "numberOfPunct01"></div>
@@ -221,8 +261,8 @@
                          <img class="arFrameFoto" src="./fotoForProject/arFoto.png" alt="фото">
                          <div class="modernTecHead">
                             <p class="modernTecHeadSmallText modernTecHeadHeaderEm arFrameSmallText" id="5Reason1">5 причин выбрать нас</p>
-                            <header class="modernTecHeadHeader modernTecHeadHeaderEm arFrameWordSpase"  id="b">Виртуальная  и    <em class="arFrameTextExeption modernTecHeadHeader modernTecHeadHeaderMein">дополнительная</em></header>
-                            <header class=" modernTecHeadHeader modernTecHeadHeaderMein nextLine" id="b1">реальности</header>
+                            <header class="modernTecHeadHeader modernTecHeadHeaderEm arFrameWordSpase animate-on-scroll an"  id="b">Виртуальная  и    <em class="arFrameTextExeption modernTecHeadHeader modernTecHeadHeaderMein">дополнительная</em></header>
+                            <header class=" modernTecHeadHeader modernTecHeadHeaderMein nextLine animate-on-scroll an" id="b1">реальности</header>
                         </div>
 
                         <main class="modernTecMainText arFrameMainText" id="arFrameMainText">Использование виртуальной и дополнительной реальности открывает новые горизонты для креативности и взаимодействия с клиентами. Благодаря этим технологиям дизайнеры могут создавать иммерсивные визуализации, позволяющие клиентам погрузиться в виртуальное пространство и реально оценить дизайн предметов или интерьеров. Кроме того, использование виртуальной и дополнительной реальности упрощает процесс визуализации и внесения изменений, что способствует более эффективной коммуникации и улучшению конечного результата. </main>
@@ -233,8 +273,8 @@
                         <div class="exspirienseFoto"></div>
                         <div class="modernTecHead">
                             <p class="modernTecHeadSmallText modernTecHeadHeaderEm exspirienseSmallText" id="5Reason2">5 причин выбрать нас</p>
-                            <header class="modernTecHeadHeader modernTecHeadHeaderMein exspirienseFrameWordSpase" id="exspirienseFrameWordSpase">Большой опыт и  <em class="arFrameTextExeption modernTecHeadHeader modernTecHeadHeaderEm">индивидуальный</em></header>
-                            <header class=" modernTecHeadHeader modernTecHeadHeaderMein exspiriensenextLine " id="exspiriensenextLine">подход к каждому <em class="modernTecHeadHeaderEm modernTecHeadHeader exspiriensenextLineExeption">клиенту</em></header>
+                            <header class="modernTecHeadHeader modernTecHeadHeaderMein exspirienseFrameWordSpase animate-on-scroll an" id="exspirienseFrameWordSpase">Большой опыт и  <em class="arFrameTextExeption modernTecHeadHeader modernTecHeadHeaderEm">индивидуальный</em></header>
+                            <header class=" modernTecHeadHeader modernTecHeadHeaderMein exspiriensenextLine animate-on-scroll an" id="exspiriensenextLine">подход к каждому <em class="modernTecHeadHeaderEm modernTecHeadHeader exspiriensenextLineExeption">клиенту</em></header>
                         </div>
                         <main class="modernTecMainText" id="articl5">Каждый проект рассматривается с учетом уникальных потребностей и предпочтений клиента, а дизайнеры стремятся создать решения, соответствующие его индивидуальному стилю и визии. Этот подход позволяет достичь наибольшей удовлетворенности клиента и создать эксклюзивный дизайн, отражающий его личность и ценности. </main>
                         <div class="svgbackground numberOfPunct03"></div>
@@ -245,20 +285,20 @@
                         <header class="portfolioSmallHeader" id="portfolioSmallHeader">Недавние проекты</header>
                         <div class="portfolioFotoBlock">
                             <div class="portfolioFotoBlock1">
-                                <img src="./fotoForProject/portfolio1.png"  id = "foto1" alt="">
-                                <img src="./fotoForProject/portfolio3.png" id = "foto3"class="textHide" alt="">
+                                <img src="./fotoForProject/portfolio1.png" class="fotoStyle"  id = "foto1" alt="">
+                                <img src="./fotoForProject/portfolio3.png"  id = "foto3"class="textHide fotoStyle" alt="">
                                 <p class="portfolioFotoText imageHide" id="interior2">Интерьер</p>
                             </div>
                             <div class="portfolioFotoBlock2 imageHide">
-                                <img src="./fotoForProject/portfolio2.png" id = "foto2" alt="">
-                                <img src="./fotoForProject/portfolio3.png" id = "foto33" alt="">
+                                <img src="./fotoForProject/portfolio2.png" class="fotoStyle" id = "foto2" alt="">
+                                <img src="./fotoForProject/portfolio3.png"class="fotoStyle" id = "foto33" alt="">
                             </div>
 
-                                <img src="./fotoForProject/portfolio4.png" id = "foto4" class="portfolioFotoBlockImage imageHide" alt="">
+                                <img src="./fotoForProject/portfolio4.png" id = "foto4" class="portfolioFotoBlockImage fotoStyle imageHide" alt="">
 
                             <div class="portfolioNewBlock textHide" >
-                                 <img src="./fotoForProject/portfolio4.png" id = "foto44" class="portfolioFotoBlockImage" alt="">
-                                <p class="portfolioFotoText textHide" id="interior3">Интерьер</p>
+                                 <img src="./fotoForProject/portfolio4.png"  id = "foto44" class="portfolioFotoBlockImage fotoStyle" alt="">
+                                <p class="portfolioFotoText textHide" class="fotoStyle" id="interior3">Интерьер</p>
                             </div>
                                
                         </div>
@@ -291,18 +331,38 @@
                         <div class="personalFoto"></div>
                         <div class="modernTecHead personalHeadExs">
                             <p class="modernTecHeadSmallText SmallTextEl modernTecHeadHeaderEm personalHeadsmall" id="5Reason3">5 причин выбрать нас</p>
-                            <header class="modernTecHeadHeader modernTecHeadHeaderEm personalHeadHeader" id="personalHeadHeader">Внимательные и отзывчивые сотрудники</header>
+                            <header class="modernTecHeadHeader modernTecHeadHeaderEm personalHeadHeader animate-on-scroll an" id="personalHeadHeader">Внимательные и отзывчивые сотрудники</header>
                         </div>
                         <main class="modernTecMainText personMainText" id="personMainText">Внимательные и отзывчивые сотрудники являются неотъемлемой частью нашей студии дизайна. Их способность слушать и понимать клиентов, улавливать их потребности и предпочтения позволяет создавать дизайн, идеально соответствующий их ожиданиям. Кроме того, наши сотрудники способны эффективно коммуницировать и сотрудничать, что способствует гармоничному взаимодействию внутри команды и достижению высоких результатов, что так же сказывается на качестве выполняемых ими проектов. </main>
                         <div class="svgbackground numberOfPunct04 "></div>
-                        <svg class="personalVector" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- <svg class="personalVector" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M28.659 51.0796C28.4357 51.3203 28.262 51.6028 28.1479 51.9107C28.0337 52.2186 27.9813 52.546 27.9937 52.8741C28.0061 53.2023 28.083 53.5248 28.22 53.8232C28.357 54.1216 28.5514 54.3902 28.7922 54.6135C29.033 54.8367 29.3154 55.0104 29.6233 55.1246C29.9312 55.2387 30.2586 55.2911 30.5868 55.2787C30.9149 55.2664 31.2374 55.1895 31.5359 55.0525C31.8343 54.9155 32.1028 54.721 32.3261 54.4802L53.3635 31.7813C53.798 31.313 54.0367 30.6962 54.0307 30.0575C54.0247 29.4187 53.7744 28.8065 53.3312 28.3465L31.8705 6.04485C31.6441 5.80307 31.372 5.60867 31.0699 5.47294C30.7678 5.33721 30.4417 5.26287 30.1106 5.25422C29.7796 5.24558 29.4501 5.30281 29.1413 5.42258C28.8325 5.54235 28.5506 5.72229 28.312 5.95193C28.0733 6.18157 27.8827 6.45634 27.7511 6.76029C27.6195 7.06423 27.5497 7.39128 27.5456 7.72245C27.5415 8.05362 27.6032 8.3823 27.7272 8.68941C27.8512 8.99651 28.035 9.27592 28.2679 9.51139L48.0926 30.1133L28.659 51.0796Z" fill="#8C694F"/>
-                            </svg> 
+                            </svg>
+                             -->
+                            <button class="porsonalVectorButton personalVector" id="porsonalVector">
+                                <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.8175 9.21739C32.043 8.97872 32.2194 8.69795 32.3364 8.39113C32.4534 8.08431 32.5089 7.75744 32.4996 7.42918C32.4903 7.10093 32.4165 6.77772 32.2823 6.478C32.1481 6.17829 31.9562 5.90794 31.7175 5.68239C31.4788 5.45685 31.1981 5.28052 30.8912 5.16348C30.5844 5.04645 30.2575 4.99099 29.9293 5.00027C29.601 5.00956 29.2778 5.08341 28.9781 5.2176C28.6784 5.3518 28.408 5.54372 28.1825 5.78239L6.9325 28.2824C6.49366 28.7466 6.24914 29.3611 6.24914 29.9999C6.24914 30.6387 6.49366 31.2532 6.9325 31.7174L28.1825 54.2199C28.4065 54.4638 28.6768 54.6608 28.9777 54.7993C29.2785 54.9379 29.6038 55.0153 29.9348 55.027C30.2658 55.0388 30.5958 54.9847 30.9057 54.8678C31.2156 54.751 31.4992 54.5737 31.74 54.3463C31.9808 54.1189 32.174 53.8459 32.3084 53.5432C32.4428 53.2406 32.5158 52.9142 32.523 52.5831C32.5302 52.2519 32.4715 51.9227 32.3504 51.6144C32.2293 51.3062 32.0482 51.0251 31.8175 50.7874L12.1875 29.9999L31.8175 9.21739Z" fill="#8C694F"/>
+                                    </svg>                                
+                            </button>
+
+                            <button class=" porsonalVector2Button personalVector" id="porsonalVector2">
+                                <svg  viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M28.659 51.0796C28.4357 51.3203 28.262 51.6028 28.1479 51.9107C28.0337 52.2186 27.9813 52.546 27.9937 52.8741C28.0061 53.2023 28.083 53.5248 28.22 53.8232C28.357 54.1216 28.5514 54.3902 28.7922 54.6135C29.033 54.8367 29.3154 55.0104 29.6233 55.1246C29.9312 55.2387 30.2586 55.2911 30.5868 55.2787C30.9149 55.2664 31.2374 55.1895 31.5359 55.0525C31.8343 54.9155 32.1028 54.721 32.3261 54.4802L53.3635 31.7813C53.798 31.313 54.0367 30.6962 54.0307 30.0575C54.0247 29.4187 53.7744 28.8065 53.3312 28.3465L31.8705 6.04485C31.6441 5.80307 31.372 5.60867 31.0699 5.47294C30.7678 5.33721 30.4417 5.26287 30.1106 5.25422C29.7796 5.24558 29.4501 5.30281 29.1413 5.42258C28.8325 5.54235 28.5506 5.72229 28.312 5.95193C28.0733 6.18157 27.8827 6.45634 27.7511 6.76029C27.6195 7.06423 27.5497 7.39128 27.5456 7.72245C27.5415 8.05362 27.6032 8.3823 27.7272 8.68941C27.8512 8.99651 28.035 9.27592 28.2679 9.51139L48.0926 30.1133L28.659 51.0796Z" fill="#8C694F"/>
+                                    </svg>                            
+                            </button>
                     </div>
 
+                    <script src="sliderPerson.js"> </script>
                     <div class="scrollPersonal" id="personalFrame">
                         <div class="personalMainInfo">
-                            <div class="fotoPerson"></div>
+                            <div class="fotoPerson">
+                                <div class="fotoPerson-SliderLine">
+                                    <div class="fotoPerson-Slide1"></div>
+                                    <div class="fotoPerson-Slide2"></div>
+                                    <div class="fotoPerson-Slide3"></div>
+                                    <div class="fotoPerson-Slide4"></div>
+                                </div>
+                            </div>
                             <DIv class="personalMainInfoAllText">
                                 <div class="personalMainInfoAllTextUp">
                                 <p class="scrollPersonalHeadSmall" id="scrollPersonalHeadSmall1">Сотруднки</p>
@@ -322,36 +382,40 @@
                         </div>
                               
                         <div class="personalSkroll">
-                            <svg class="scrollCircum scrollCircum1" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            
+                                <button class="personalSkrollPagin1" >&lt;&lt;</button>
+                            
+                            <svg class="scrollCircum scrollCircum1" id="1v" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="7.5" cy="7.5" r="7.5" />
                             </svg>                            
-                            <svg class="scrollCircum scrollCircum2" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="scrollCircum scrollCircum2" id="2v" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="7.5" cy="7.5" r="7.5"/>
                                 </svg>   
-                            <svg class="scrollCircum scrollCircum2" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="scrollCircum scrollCircum2" id="3v" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="7.5" cy="7.5" r="7.5" />
                             </svg> 
+                                <button class="personalSkrollPagin2">&gt;&gt;</button>
                         </div>                        
-                        <div class="line1"></div>
-                        <div class="line2"></div>
-                        <div class="line3"></div>
+                        <div class="animate-on-scroll line1 "></div>
+                        <div class=" line2 "></div>
+                        <div class="animate-on-scroll line3 "></div>
                     </div>
 
                     <div class="reviewsFrame">
                         <div class="reviewsFrameColor"></div>
                         <div class="reviews">
                             <p class="reviewsHeadSmallText " id="5Reason4">5 причин выбрать нас</p>
-                            <header class="reviewsHeadHeader modernTecHeadHeaderEm" id="reviewsHeadHeader">Положительные от<em class="reviewsHeadHeader modernTecHeadHeaderMein">зывы и хороший </em>рейтинг среди кон<em class="reviewsHeadHeader modernTecHeadHeaderMein">курентов </em></header>
+                            <header class="reviewsHeadHeader modernTecHeadHeaderEm animate-on-scroll an" id="reviewsHeadHeader">Положительные от<em class="reviewsHeadHeader modernTecHeadHeaderMein">зывы и хороший </em>рейтинг среди кон<em class="reviewsHeadHeader modernTecHeadHeaderMein">курентов </em></header>
                             
-                            <div class="review">
+                            <div class="review" id="reviewSlider">
                                 <div class="reviewExemple">
                                     <div class="nikName ">
-                                        <div class="nikNameFoto nikNameFotoMan"></div>
+                                        <div class="nikNameFoto nikNameFotoMan "></div>
                                         <p class="nikNameName modernTecHeadHeaderEm" id="nikNameName1">Максим Иванов</p>
                                     </div>
                                     <div class="reviewExempleBlok collOR1">
                                         <div class="numberOfPunct5star"></div>
-                                        <main class="mainTextREVIEWS modernTecHeadHeaderMein" id="mainTextREVIEWS">
+                                        <main class="mainTextREVIEWS modernTecHeadHeaderMein mainTextREVIEWS" id="mainTextREVIEWS">
                                             "Я полностью восхищен работой студии дизайна! Их креативный подход, внимание к деталям и профессионализм были впечатляющими. Они прекрасно поняли мои потребности и воплотили мои идеи в реальность. Коммуникация с командой была легкой и приятной, и я чувствовал себя важным участником процесса. Я безусловно рекомендую студию дизайна всем, кто ищет высококачественное и индивидуальное . . . 
                                         </main>
                                     </div>
@@ -360,28 +424,82 @@
                                 <div class="reviewExemple imageHide">
                                     <div class="nikName ">
                                         <div class="nikNameFoto nikNameFotoWoman"></div>
-                                        <p class="nikNameName modernTecHeadHeaderMein" id="nikNameName2">Виктория Борко</p>
+                                        <p class="nikNameName modernTecHeadHeaderMein " id="nikNameName2">Виктория Борко</p>
                                     </div>
                                     <div class="reviewExempleBlok collOR2">
                                         <div class="numberOfPunct4star"></div>
-                                        <main class="mainTextREVIEWS modernTecHeadHeaderEm" id="mainTextREVIEWS2">
+                                        <main class="mainTextREVIEWS modernTecHeadHeaderEm mainTextREVIEWS2" id="mainTextREVIEWS2">
                                             "Я просто не могу нарадоваться на результаты, достигнутые студией дизайна! Их творческий подход и профессионализм впечатляют. Они действительно слушали и понимали мои потребности, и смогли воплотить мою видение в реальность. Весь процесс работы был гладким и эффективным, а их команда была отзывчивой и заботливой. Спасибо вам за ваше искусство и преданность качеству. "
                                         </main>
                                     </div>
                                 </div>
+                                <div class="reviewExemple">
+                                    <div class="nikName ">
+                                        <div class="nikNameFoto nikNameFotoMan nikNameFotoMan1"></div>
+                                        <p class="nikNameName modernTecHeadHeaderEm" id="nikNameName1">Игорь Николаев</p>
+                                    </div>
+                                    <div class="reviewExempleBlok collOR1">
+                                        <div class="numberOfPunct5star"></div>
+                                        <main class="mainTextREVIEWS modernTecHeadHeaderMein mainTextREVIEWS" id="mainTextREVIEWS">
+                                            "Я недавно работал со студией дизайна и был полностью удовлетворен их работой. Команда профессионалов, которые действительно понимают, как создавать уникальные и привлекательные дизайны. Их креативность и внимание к деталям произвели на меня большое впечатление. Я определенно буду рекомендовать их другим!"
+                                        </main>
+                                    </div>
+                                </div>
+
+                                <div class="reviewExemple imageHide">
+                                    <div class="nikName ">
+                                        <div class="nikNameFoto nikNameFotoWoman nikNameFotoWoman2"></div>
+                                        <p class="nikNameName modernTecHeadHeaderMein" id="nikNameName2">Максим Строцкий</p>
+                                    </div>
+                                    <div class="reviewExempleBlok collOR2">
+                                        <div class="numberOfPunct4star"></div>
+                                        <main class="mainTextREVIEWS modernTecHeadHeaderEm mainTextREVIEWS2" id="mainTextREVIEWS2">
+                                            "Студия дизайна выполнила для нашей компании замечательную работу по редизайну нашего сайта. Они приложили все усилия, чтобы понять наши потребности и создать современный, привлекательный и функциональный дизайн. Процесс сотрудничества был гладким и приятным. Мы очень довольны результатом!"
+                                        </main>
+                                    </div>
+                                </div>
+                                <div class="reviewExemple">
+                                    <div class="nikName ">
+                                        <div class="nikNameFoto nikNameFotoMan  nikNameFotoWoman1"></div>
+                                        <p class="nikNameName modernTecHeadHeaderEm" id="nikNameName1">Екатерина Куцева</p>
+                                    </div>
+                                    <div class="reviewExempleBlok collOR1">
+                                        <div class="numberOfPunct5star"></div>
+                                        <main class="mainTextREVIEWS modernTecHeadHeaderMein mainTextREVIEWS" id="mainTextREVIEWS">
+                                            "Я работал со студией дизайна над созданием логотипа и фирменного стиля для моего нового бизнеса. Команда была очень креативной и отзывчивой на мои пожелания. Они смогли воплотить мои идеи в жизнь и создать яркий, запоминающийся бренд. Я рекомендую их всем, кто ищет талантливых дизайнеров!" 
+                                        </main>
+                                    </div>
+                                </div>
+
+                                <div class="reviewExemple imageHide">
+                                    <div class="nikName ">
+                                        <div class="nikNameFoto nikNameFotoWoman nikNameFotoMa2"></div>
+                                        <p class="nikNameName modernTecHeadHeaderMein" id="nikNameName2">Егор Бунько</p>
+                                    </div>
+                                    <div class="reviewExempleBlok collOR2">
+                                        <div class="numberOfPunct4star"></div>
+                                        <main class="mainTextREVIEWS modernTecHeadHeaderEm" id="mainTextREVIEWS2">
+                                            "Студия дизайна выполнила для нас отличную работу по разработке дизайна наших маркетинговых материалов. Они смогли передать нашу корпоративную идентичность и создать визуально привлекательные материалы, которые производят большое впечатление на наших клиентов. Мы высоко ценим их профессионализм и творческий подход! "
+                                        </main>
+                                    </div>
+                                </div>
                             </div>
+                            
+                            <svg class="reviewVector2" width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M28.659 51.0797C28.4357 51.3205 28.262 51.6029 28.1479 51.9108C28.0337 52.2187 27.9813 52.5461 27.9937 52.8743C28.0061 53.2024 28.083 53.5249 28.22 53.8234C28.357 54.1218 28.5514 54.3903 28.7922 54.6136C29.033 54.8369 29.3154 55.0106 29.6233 55.1247C29.9312 55.2389 30.2586 55.2913 30.5868 55.2789C30.9149 55.2665 31.2374 55.1896 31.5359 55.0526C31.8343 54.9156 32.1028 54.7212 32.3261 54.4804L53.3635 31.7815C53.798 31.3132 54.0367 30.6964 54.0307 30.0576C54.0247 29.4189 53.7744 28.8066 53.3312 28.3466L31.8705 6.04501C31.6441 5.80322 31.372 5.60882 31.0699 5.47309C30.7678 5.33736 30.4417 5.26302 30.1106 5.25438C29.7796 5.24573 29.4501 5.30296 29.1413 5.42273C28.8325 5.54251 28.5506 5.72244 28.312 5.95208C28.0733 6.18172 27.8827 6.45649 27.7511 6.76044C27.6195 7.06438 27.5497 7.39143 27.5456 7.72261C27.5415 8.05378 27.6032 8.38246 27.7272 8.68956C27.8512 8.99667 28.035 9.27607 28.2679 9.51155L48.0926 30.1135L28.659 51.0797Z" fill="#B0947B"/>
+                                </svg>
                             <svg class="reviewVector" width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M28.659 51.0797C28.4357 51.3205 28.262 51.6029 28.1479 51.9108C28.0337 52.2187 27.9813 52.5461 27.9937 52.8743C28.0061 53.2024 28.083 53.5249 28.22 53.8234C28.357 54.1218 28.5514 54.3903 28.7922 54.6136C29.033 54.8369 29.3154 55.0106 29.6233 55.1247C29.9312 55.2389 30.2586 55.2913 30.5868 55.2789C30.9149 55.2665 31.2374 55.1896 31.5359 55.0526C31.8343 54.9156 32.1028 54.7212 32.3261 54.4804L53.3635 31.7815C53.798 31.3132 54.0367 30.6964 54.0307 30.0576C54.0247 29.4189 53.7744 28.8066 53.3312 28.3466L31.8705 6.04501C31.6441 5.80322 31.372 5.60882 31.0699 5.47309C30.7678 5.33736 30.4417 5.26302 30.1106 5.25438C29.7796 5.24573 29.4501 5.30296 29.1413 5.42273C28.8325 5.54251 28.5506 5.72244 28.312 5.95208C28.0733 6.18172 27.8827 6.45649 27.7511 6.76044C27.6195 7.06438 27.5497 7.39143 27.5456 7.72261C27.5415 8.05378 27.6032 8.38246 27.7272 8.68956C27.8512 8.99667 28.035 9.27607 28.2679 9.51155L48.0926 30.1135L28.659 51.0797Z" fill="#B0947B"/>
                                 </svg>
 
                                 <div class="personalSkroll reviewScroll">
-                                    <svg class="scrollCircum scrollCircum1" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg class="scrollCircum scrollCircum1"  id="w1" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="7.5" cy="7.5" r="7.5" />
                                     </svg>                            
-                                    <svg class="scrollCircum scrollCircum2" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg class="scrollCircum scrollCircum2 " id="w2" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="7.5" cy="7.5" r="7.5"/>
                                         </svg>   
-                                    <svg class="scrollCircum scrollCircum2" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg class="scrollCircum scrollCircum2" id="w3" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <circle cx="7.5" cy="7.5" r="7.5" />
                                     </svg> 
                                 </div>  
@@ -402,8 +520,9 @@
                                     </div>
                                     <div class="footerColumn">
                                         <p class="footerColumnBigText" id="footerColumnBigText2">Контакты</p>
-                                        <p class="footerColumnSmallText">+375292427811</p>
-                                        <p class="footerColumnSmallText">studioDisign@gmail.com</p>
+                                        <p class="footerColumnSmallText"  type="tel">+375292427811</p>
+                                        <a class="buttonIacorStyle" href="https://www.google.ru/gmail/about/">
+                                            <p class="footerColumnSmallText">studioDisign@gmail.com</p></a>
                                     </div>
                                     <div class="footerColumn">
                                         <p class="footerColumnBigText" id="footerColumnBigText3">Услуги</p>
@@ -427,7 +546,11 @@
                     </div>
                     
                     
-
+                    <div class="mapFrame section">
+                   
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.418730004728!2d30.342822144358745!3d53.90653474047938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d051e219420c3f%3A0x4681728b24242feb!2z0JHQoNCjLCDQmtC-0YDQv9GD0YEg4oSWIDMsINC_0YDQvtGB0L_QtdC60YIg0JzQuNGA0LAgNDMsINCc0L7Qs9C40LvRkdCyLCDQnNC-0LPQuNC70ZHQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMIDIxMjAwMA!5e0!3m2!1sru!2sby!4v1716739276216!5m2!1sru!2sby"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                </div>
             </div>
 
         </body>

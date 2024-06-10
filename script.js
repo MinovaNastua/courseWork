@@ -1,13 +1,49 @@
 
+
 document.addEventListener('DOMContentLoaded', function() {
-  var button = document.getElementById('languageToggle');
-
-  // 1
-
+ 
+  let button = document.getElementById('languageToggle');
+  let servesesMainInfo = "Интерьер - это искусство создания пространства, где архитектура, дизайн и функциональность взаимодействуют в гармонии. Он воплощает настроение, стиль и характер, отражая индивидуальность и потребности его обитателей. Интерьерный дизайн способен преобразить обычное помещение в уникальное и уютное место, вызывающее эмоции и вдохновляющее жизнь.";
+  let servesesMainInfoInEnglish = "Interior design is the art of creating a space where architecture, design and functionality interact in harmony. It embodies mood, style and character, reflecting the personality and needs of its inhabitants. Interior design can transform an ordinary room into a unique and cozy place that evokes emotions and inspires life."
+  let modernTecMainText = "3D-моделирование позволяет дизайнерам создавать реалистичные визуализации продуктов и интерьеров, помогая клиентам лучше представить себе окончательный результат. Кроме того, оно облегчает коллаборацию между дизайнерами и заказчиками, ускоряет процесс принятия решений и снижает возможность ошибок, что делает его неотъемлемой частью современного процесса дизайна.";
+  let modernTecMainTextEnglish = "3D modeling allows designers to create realistic renderings of products and interiors, helping clients better visualize the final result. In addition, it facilitates collaboration between designers and clients, speeds up decision-making and reduces the possibility of errors, making it an integral part of the modern design process."
+  let arFrameMainText = "Использование виртуальной и дополнительной реальности открывает новые горизонты для креативности и взаимодействия с клиентами. Благодаря этим технологиям дизайнеры могут создавать иммерсивные визуализации, позволяющие клиентам погрузиться в виртуальное пространство и реально оценить дизайн предметов или интерьеров. Кроме того, использование виртуальной и дополнительной реальности упрощает процесс визуализации и внесения изменений, что способствует более эффективной коммуникации и улучшению конечного результата.";
+  let arFrameMainTextEnglish = "The use of virtual and augmented reality opens up new horizons for creativity and customer interaction. Thanks to these technologies, designers can create immersive visualizations that allow clients to immerse themselves in virtual space and really appreciate the design of objects or interiors. In addition, the use of virtual and augmented reality simplifies the process of visualization and making changes, which leads to more effective communication and an improved final result."
+ 
   button.addEventListener('click', function() 
   {
-    if (button.textContent === 'EN') {
-      button.textContent = 'RU';
+    if (localStorage.getItem('lang') === 'EN') {
+
+      button.textContent ='RU';
+      localStorage.setItem('lang','RU');
+
+      document.querySelectorAll('.Obligatoryfield').forEach(element => {
+        element.textContent = 'Обязательное поле';
+      });
+      
+      document.getElementById('regWindowInfo1').textContent = "Регистрация";
+      
+      document.getElementById('password-method-choose').textContent = "Выберите способ";
+      document.getElementById('password-method-manual').textContent = "Ввести самостоятельно";
+      document.getElementById('password-method-auto').textContent = "Сгенерировать автоматически";
+      document.getElementById('password-confirm-group').textContent = "Подтверждение пароля:";
+      document.getElementById('nicknamefIELD').textContent = "Никнейм:";
+      document.getElementById('generate-nickname').textContent = "Сгенерировать никнейм";
+      document.getElementById('checkBoxReg').textContent = "Нажимая “зарегистрироваться”, я принимаю все условия";
+      document.getElementById('regWindowInfoButton').textContent = "Зарегистрироваться";
+
+      document.getElementById('login-form-login').textContent = "Вход";
+      document.getElementById('login-form-num').textContent = "Номер телефона или email";
+      document.getElementById('login-form-puss').textContent = "Пароль";
+      document.getElementById('logWindowInfoButton').textContent = "Войти";
+      //
+
+      document.getElementById('fio').innerHTML = 'ФИО <em class="loginWindowLitleText Obligatoryfield">Обязательное поле</em>';
+      document.getElementById('NUMBERfIELD').innerHTML = 'Номер телефона <em class="loginWindowLitleText Obligatoryfield">Обязательное поле</em>' ;
+      document.getElementById('birthdatefIELD').innerHTML = 'Дата рождения <em class="loginWindowLitleText Obligatoryfield">Обязательное поле</em>';
+      document.getElementById('passwordfIELD').innerHTML = 'Пароль: <em class="loginWindowLitleText Obligatoryfield">Обязательное поле</em>';
+      
+      //
 
       //5
       document.getElementById('exspirienseFrameWordSpase').textContent = "Большой опыт и  индивидуальный";
@@ -59,11 +95,69 @@ document.addEventListener('DOMContentLoaded', function() {
       document.getElementById('footerColumnBigText10').textContent = "Портфолио";
       document.getElementById('footerColumnBigText11').textContent = "Сотрудники";
       document.getElementById('footerColumnBigText12').textContent = "Регистрация";
+
+
+      //
+
+      
+      document.getElementById('serveses').textContent = 'Услуги';
+      document.getElementById('serveses1').textContent = 'Услуги';
+      document.getElementById('portfolio').textContent = 'Портфорио';
+      document.getElementById('employees1').textContent = 'Сотрудники';
+      document.getElementById('login').textContent = 'Вход';
+      document.getElementById('registration').textContent = 'Регистрация';
+      document.getElementById('interior').textContent = 'ИНТЕРЬЕР';
+
+      
+   
+    
+      document.getElementById('servesesMainInfo').textContent = servesesMainInfo;
+      document.getElementById('5Reason').textContent = "5 причин выбрать нас";
+      document.getElementById('5Reason1').textContent = "5 причин выбрать нас";
+      document.getElementById('5Reason2').textContent = "5 причин выбрать нас";
+      document.getElementById('5Reason3').textContent = "5 причин выбрать нас";
+      document.getElementById('5Reason4').textContent = "5 причин выбрать нас";
+      document.getElementById('a').textContent = "Современные средства визуализации";
+      document.getElementById('b').textContent = "Виртуальная  и    дополнительная";
+      document.getElementById("numberOfPunct02").style.top="-162%";
+      document.getElementById('modernTecMainText').textContent = modernTecMainText;
+      // document.getElementById("numberOfPunct01").style.top="-156%";
+      document.getElementById('b1').textContent = "реальности";
+      document.getElementById('arFrameMainText').textContent = arFrameMainText;
+
+
     } 
     
-    else {
-      button.textContent = 'EN';
+    else { 
+      
+      localStorage.setItem('lang','EN');
+      button.textContent = 'EN'
 
+      
+      document.getElementById('login-form-login').textContent = "Log in";
+      document.getElementById('login-form-num').textContent = "Phone number or email";
+      document.getElementById('login-form-puss').textContent = "Password";
+      document.getElementById('logWindowInfoButton').textContent = "Еnter";
+
+      document.querySelectorAll('.Obligatoryfield').forEach(element => {
+        element.textContent = 'Obligatory field';
+      });
+
+      document.getElementById('regWindowInfo1').textContent = "Registration";
+      
+
+      document.getElementById('fio').innerHTML = 'Full name <em class="loginWindowLitleText Obligatoryfield">Obligatory field</em>';
+      document.getElementById('NUMBERfIELD').innerHTML = 'Phone number <em class="loginWindowLitleText Obligatoryfield">Obligatory field</em>' ;
+      document.getElementById('birthdatefIELD').innerHTML = 'Birth date <em class="loginWindowLitleText Obligatoryfield">Obligatory field</em>';
+      document.getElementById('passwordfIELD').innerHTML = 'Password: <em class="loginWindowLitleText Obligatoryfield">Obligatory field</em>';
+      document.getElementById('password-method-choose').textContent = "Choose a method";
+      document.getElementById('password-method-manual').textContent = "Enter yourself";
+      document.getElementById('password-method-auto').textContent = "Generate automatically";
+      document.getElementById('password-confirm-group').textContent = "Password confirmation:";
+      document.getElementById('nicknamefIELD').textContent = "Nickname:";
+      document.getElementById('generate-nickname').textContent = "Generate nickname";
+      document.getElementById('checkBoxReg').textContent = "By clicking “register”, I accept all terms and conditions";
+      document.getElementById('regWindowInfoButton').textContent = "Register";
       //5
 
       document.getElementById('exspirienseFrameWordSpase').textContent = "Extensive experience and";
@@ -118,118 +212,43 @@ document.addEventListener('DOMContentLoaded', function() {
       document.getElementById('footerColumnBigText11').textContent = "Employees";
       document.getElementById('footerColumnBigText12').textContent = "Registration";
 
-    }  
-
-    if (document.getElementById('serveses').textContent === 'Услуги') {
+      //
+      
       document.getElementById('serveses').textContent = 'Serveses';
       document.getElementById('serveses1').textContent = 'Serveses';
-    } else {
-      document.getElementById('serveses').textContent = 'Услуги';
-      document.getElementById('serveses1').textContent = 'Услуги';
-    }
+      
 
-    if (document.getElementById('portfolio').textContent === 'Портфорио') {
       document.getElementById('portfolio').textContent = 'Portfolio';
-    } else {
-      document.getElementById('portfolio').textContent = 'Портфорио';
-    }
-
-    if (document.getElementById('employees1').textContent === 'Сотрудники') {
       document.getElementById('employees1').textContent = 'Employees';
-    } else {
-      document.getElementById('employees1').textContent = 'Сотрудники';
-    }
 
-    if (document.getElementById('login').textContent === 'Вход') {
       document.getElementById('login').textContent = 'Login';
-    } else {
-      document.getElementById('login').textContent = 'Вход';
-    }
-    
-    if (document.getElementById('registration').textContent === 'Регистрация') {
       document.getElementById('registration').textContent = 'Registration';
-    } else {
-      document.getElementById('registration').textContent = 'Регистрация';
-    }
-
-    // 2
-
-    if (document.getElementById('interior').textContent === 'ИНТЕРЬЕР') {
       document.getElementById('interior').textContent = 'INTERIOR';
-    } else {
-      document.getElementById('interior').textContent = 'ИНТЕРЬЕР';
-    }
 
-    var servesesMainInfo = "Интерьер - это искусство создания пространства, где архитектура, дизайн и функциональность взаимодействуют в гармонии. Он воплощает настроение, стиль и характер, отражая индивидуальность и потребности его обитателей. Интерьерный дизайн способен преобразить обычное помещение в уникальное и уютное место, вызывающее эмоции и вдохновляющее жизнь.";
-    var servesesMainInfoInEnglish = "Interior design is the art of creating a space where architecture, design and functionality interact in harmony. It embodies mood, style and character, reflecting the personality and needs of its inhabitants. Interior design can transform an ordinary room into a unique and cozy place that evokes emotions and inspires life."
-    
-    if (document.getElementById('servesesMainInfo').textContent === servesesMainInfo) {
       document.getElementById('servesesMainInfo').textContent = servesesMainInfoInEnglish;
-    } else {
-      document.getElementById('servesesMainInfo').textContent = servesesMainInfo;
-    }
-
-    //3
-
-    if (document.getElementById('5Reason').textContent === "5 причин выбрать нас") {
       document.getElementById('5Reason').textContent = "5 reasons to choose us";
       document.getElementById('5Reason1').textContent = "5 reasons to choose us";
       document.getElementById('5Reason2').textContent = "5 reasons to choose us";
       document.getElementById('5Reason3').textContent = "5 reasons to choose us";
       document.getElementById('5Reason4').textContent = "5 reasons to choose us";
-    } else {
-      document.getElementById('5Reason').textContent = "5 причин выбрать нас";
-      document.getElementById('5Reason1').textContent = "5 причин выбрать нас";
-      document.getElementById('5Reason2').textContent = "5 причин выбрать нас";
-      document.getElementById('5Reason3').textContent = "5 причин выбрать нас";
-      document.getElementById('5Reason4').textContent = "5 причин выбрать нас";
-    }
-
-    if (document.getElementById('a').textContent === "Современные средства визуализации") {
       document.getElementById('a').textContent = "Modern visualization tools";
-    } else {
-      document.getElementById('a').textContent = "Современные средства визуализации";
-    }
-
-    var modernTecMainText = "3D-моделирование позволяет дизайнерам создавать реалистичные визуализации продуктов и интерьеров, помогая клиентам лучше представить себе окончательный результат. Кроме того, оно облегчает коллаборацию между дизайнерами и заказчиками, ускоряет процесс принятия решений и снижает возможность ошибок, что делает его неотъемлемой частью современного процесса дизайна.";
-    var modernTecMainTextEnglish = "3D modeling allows designers to create realistic renderings of products and interiors, helping clients better visualize the final result. In addition, it facilitates collaboration between designers and clients, speeds up decision-making and reduces the possibility of errors, making it an integral part of the modern design process."
-    
-    if (document.getElementById('modernTecMainText').textContent === modernTecMainTextEnglish) {
-      document.getElementById('modernTecMainText').textContent = modernTecMainText;
-      document.getElementById("numberOfPunct01").style.top="-156%";
-    } else {
       document.getElementById('modernTecMainText').textContent = modernTecMainTextEnglish;
       document.getElementById("numberOfPunct01").style.top="-147%";
-    }
-
-    // 4
-
-    if (document.getElementById('b').textContent === "Виртуальная  и    дополнительная") {
       document.getElementById('b').textContent = "Virtual and augmented";
       document.getElementById("numberOfPunct02").style.top="-157%";
-    } else {
-      document.getElementById('b').textContent = "Виртуальная  и    дополнительная";
-      document.getElementById("numberOfPunct02").style.top="-162%";
-    }
-
-    if (document.getElementById('b1').textContent === "реальности") {
       document.getElementById('b1').textContent = "reality";
-    } else {
-      document.getElementById('b1').textContent = "реальности";
-    }
-
-    var arFrameMainText = "Использование виртуальной и дополнительной реальности открывает новые горизонты для креативности и взаимодействия с клиентами. Благодаря этим технологиям дизайнеры могут создавать иммерсивные визуализации, позволяющие клиентам погрузиться в виртуальное пространство и реально оценить дизайн предметов или интерьеров. Кроме того, использование виртуальной и дополнительной реальности упрощает процесс визуализации и внесения изменений, что способствует более эффективной коммуникации и улучшению конечного результата.";
-    var arFrameMainTextEnglish = "The use of virtual and augmented reality opens up new horizons for creativity and customer interaction. Thanks to these technologies, designers can create immersive visualizations that allow clients to immerse themselves in virtual space and really appreciate the design of objects or interiors. In addition, the use of virtual and augmented reality simplifies the process of visualization and making changes, which leads to more effective communication and an improved final result."
-    
-    if (document.getElementById('arFrameMainText').textContent === arFrameMainTextEnglish) {
-      document.getElementById('arFrameMainText').textContent = arFrameMainText;
-    } else {
       document.getElementById('arFrameMainText').textContent = arFrameMainTextEnglish;
-    }
+    }  
 
-    // 5
-
-  }
-);
+   
+  });
+  button.click();
 });
+
+if (localStorage.getItem('lang') =='RU'){
+  localStorage.setItem('lang','EN');
+}
+else{
+    localStorage.setItem('lang','RU') 
+}
   

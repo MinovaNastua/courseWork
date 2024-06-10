@@ -3,6 +3,12 @@ document.addEventListener('DOMContentLoaded', function() {
     var button4 = document.getElementById('portfolioVector2');
     var i=1;
     
+    document.getElementById('languageToggle').addEventListener('click', function() 
+    {
+      translate();
+      }
+      )
+
     button3.addEventListener('click', function() 
       {
         if(i==3){
@@ -56,6 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     
     
+        translate();
       }
     );
     
@@ -109,7 +116,43 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('3d').style.fill="#B0947B";
         }
     
+        translate();
       }
     );
+
+
+
+    function translate(){
+      if(localStorage.getItem('lang') === 'RU'){
+        if(i==1){
+          document.getElementById('interior3').textContent = 'Интерьер';
+          document.getElementById('interior2').textContent = 'Интерьер';
+        }
+            if(i==2){
+              document.getElementById('interior3').textContent = 'Ландшавт';
+              document.getElementById('interior2').textContent = 'Ландшавт';
+            }
+          if(i==3){
+            document.getElementById('interior3').textContent = 'Одежда';
+            document.getElementById('interior2').textContent = 'Одежда';
+           }
+        }
+        else{
+          if(i==1){
+            document.getElementById('interior3').textContent = 'Interior';
+            document.getElementById('interior2').textContent = 'Interior';
+          }
+              if(i==2){
+                document.getElementById('interior3').textContent = 'Exterior';
+                document.getElementById('interior2').textContent = 'Exterior';
+              }
+            if(i==3){
+              document.getElementById('interior3').textContent = 'Cloth';
+              document.getElementById('interior2').textContent = 'Cloth';
+             }
+        }
+    }
+    
+
     }
     );
