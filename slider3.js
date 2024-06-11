@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
        
         //1
         document.querySelector('body').style.backgroundColor="#977760";
-        document.querySelector('.mainBlockFon').style.backgroundImage="url(/fotoForProject/mainFon4.png)";
+        document.querySelector('.mainBlockFon').style.backgroundImage="url(fotoForProject/mainFon4.png)";
         document.querySelector('.headMenu').style.backgroundColor="#977760";
         document.querySelector('.leftElementBlock').style.backgroundColor="#977760";
         document.querySelector('.headerTextBig').style.color="#F7F6F2";
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
           });
             // 1
             document.querySelector('body').style.backgroundColor="#B0947B";
-            document.querySelector('.mainBlockFon').style.backgroundImage="url(/fotoForProject/mainFon.jpg)";
+            document.querySelector('.mainBlockFon').style.backgroundImage="url(fotoForProject/mainFon.jpg)";
             document.querySelector('.headMenu').style.backgroundColor="#B0947B";
             document.querySelector('.leftElementBlock').style.backgroundColor="#B0947B";
             document.querySelector('.headerTextBig').style.color="#131F45";

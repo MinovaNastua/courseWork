@@ -27,7 +27,7 @@
     height: 100%;
     width: 33.3%;
 
-    background-image: url(/fotoForProject/servesesFoto1.png);
+    background-image: url(fotoForProject/servesesFoto1.png);
     background-size: cover;
     
  background-position: center;
@@ -36,7 +36,7 @@
     height: 100%;
     width: 33.3%;
     
-    background-image: url(/fotoForProject/EXTERIOR1.jpg);
+    background-image: url(fotoForProject/EXTERIOR1.jpg);
     background-size: cover;
     
  background-position: center;
@@ -45,7 +45,7 @@
     height: 100%;
     width: 33.3%;
     
-    background-image: url(/fotoForProject/clothes.jpg);
+    background-image: url(fotoForProject/clothes.jpg);
     background-size: cover;
     
  background-position: center;

@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
       //6
-      document.getElementById("portfolioHeader").style.content="url(/fotoForProject/portfolio.svg)";
+      document.getElementById("portfolioHeader").style.content="url(fotoForProject/portfolio.svg)";
 
       document.getElementById('portfolioSmallHeader').textContent = "Недавние проекты";
 
@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
       //6
-      document.getElementById("portfolioHeader").style.content="url(/fotoForProject/PORTFOLIOEN.svg)";
+      document.getElementById("portfolioHeader").style.content="url(fotoForProject/PORTFOLIOEN.svg)";
       
       document.getElementById('portfolioSmallHeader').textContent = "Recent projects";
 
