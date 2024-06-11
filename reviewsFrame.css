@@ -50,7 +50,7 @@
     width: 97%;
     height: 170px;
     position: relative;
-    content: url(/fotoForProject/05.svg);
+    content: url(fotoForProject/05.svg);
 }
 
 .review{
@@ -99,14 +99,14 @@ flex-direction: column;
 .numberOfPunct5star {
     margin-left: 3%;
     margin-top: 2%;
-    content: url(/fotoForProject/fiveStar.svg);
+    content: url(fotoForProject/fiveStar.svg);
     transition: all ease-out 1s;
 }
 
 .numberOfPunct4star {
     margin-left: 3%;
     margin-top: 2%;
-    content: url(/fotoForProject/fourStar.svg);
+    content: url(fotoForProject/fourStar.svg);
 }
 
 .nikName{
@@ -124,7 +124,7 @@ border-radius: 26px;
 
 .nikNameFotoMan{
     
-background: url(/fotoForProject/iconMan.png);
+background: url(fotoForProject/iconMan.png);
 border: 2px solid #EAE4DD;
 background-size: cover;
     background-position: center;
@@ -132,27 +132,27 @@ background-size: cover;
 
 .nikNameFotoWoman{
     
-    background: url(/fotoForProject/iconWoman.png);
+    background: url(fotoForProject/iconWoman.png);
     border: 2px solid #977760;
     background-size: cover;
     background-position: center;
 }
 
 .nikNameFotoWoman2{
-    background: url(/fotoForProject/iconBrown.svg);
+    background: url(fotoForProject/iconBrown.svg);
 }
 .nikNameFotoWoman1{
-    background: url(/fotoForProject/WOMAN2.jpg);
+    background: url(fotoForProject/WOMAN2.jpg);
     background-size: cover;
         background-position: center;
 }
 
 .nikNameFotoMan1{
-    background: url(/fotoForProject/iconWhite.svg);
+    background: url(fotoForProject/iconWhite.svg);
 }
 
 .nikNameFotoMa2{
-    background: url(/fotoForProject/evgeniy.png);
+    background: url(fotoForProject/evgeniy.png);
     background-size: cover;
         background-position: center;
 }
