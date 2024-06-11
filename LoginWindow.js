@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         console.log('Регистрация успешна');
         displayRegisteredClients();
-        window.location.href ="/htmlForClient.html";
+        window.location.href ="htmlForClient.html";
     }
 
     });
@@ -311,7 +311,7 @@ document.addEventListener('DOMContentLoaded', function() {
           if (matchingClient) {
             console.log('Вход выполнен успешно');
             localStorage.setItem('lastClient', JSON.stringify(matchingClient));
-            window.location.href ="/htmlForClient.html";
+            window.location.href ="htmlForClient.html";
           } else {
             console.log('Неверный номер телефона, электронная почта или пароль');
           }
