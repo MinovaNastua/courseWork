@@ -144,9 +144,9 @@ button.addEventListener('click', function()
     if(j==1){
         document.getElementById('reviewSlider').style.left = 0 + 'px';
         document.querySelectorAll('.numberOfPunct5star').forEach(element => {
-          element.style.content = 'url(/fotoForProject/fiveStar.svg)';
+          element.style.content = 'url(fotoForProject/fiveStar.svg)';
         });document.querySelectorAll('.numberOfPunct4star').forEach(element => {
-          element.style.content = 'url(/fotoForProject/fourStar.svg)';
+          element.style.content = 'url(fotoForProject/fourStar.svg)';
         });
         document.getElementById('w1').style.fill="#8C694F";
         document.getElementById('w2').style.fill="#B0947B";
@@ -156,7 +156,7 @@ button.addEventListener('click', function()
     if(j==2){
         document.getElementById('reviewSlider').style.left = -document.getElementById('reviewSlider').offsetWidth/3+ 'px';
         document.querySelectorAll('.numberOfPunct5star').forEach(element => {
-          element.style.content = 'url(/fotoForProject/fourBrownStar.svg)';});
+          element.style.content = 'url(fotoForProject/fourBrownStar.svg)';});
         document.getElementById('w1').style.fill="#B0947B";
         document.getElementById('w2').style.fill="#8C694F";
         document.getElementById('w3').style.fill="#B0947B";
@@ -165,11 +165,11 @@ button.addEventListener('click', function()
     if(j==3){
         document.getElementById('reviewSlider').style.left = -document.getElementById('reviewSlider').offsetWidth/3*2+ 'px';
         document.querySelectorAll('.numberOfPunct5star').forEach(element => {
-          element.style.content = 'url(/fotoForProject/fiveStar.svg)';
+          element.style.content = 'url(fotoForProject/fiveStar.svg)';
         });
         
         document.querySelectorAll('.numberOfPunct4star').forEach(element => {
-          element.style.content = 'url(/fotoForProject/FIVEVITESTAR.svg)';
+          element.style.content = 'url(fotoForProject/FIVEVITESTAR.svg)';
         });
         document.getElementById('w1').style.fill="#B0947B";
         document.getElementById('w2').style.fill="#B0947B";
@@ -191,7 +191,7 @@ button4.addEventListener('click', function()
     if(j==1){
         document.getElementById('reviewSlider').style.left = 0 + 'px';
         document.querySelectorAll('.numberOfPunct5star').forEach(element => {
-          element.style.content = 'url(/fotoForProject/fiveStar.svg)';
+          element.style.content = 'url(fotoForProject/fiveStar.svg)';
         });
         document.getElementById('w1').style.fill="#8C694F";
         document.getElementById('w2').style.fill="#B0947B";
@@ -201,9 +201,9 @@ button4.addEventListener('click', function()
     if(j==2){
         document.getElementById('reviewSlider').style.left =  -document.getElementById('reviewSlider').offsetWidth/3+ 'px';
         document.querySelectorAll('.numberOfPunct5star').forEach(element => {
-          element.style.content = 'url(/fotoForProject/fourBrownStar.svg)';});
+          element.style.content = 'url(fotoForProject/fourBrownStar.svg)';});
           document.querySelectorAll('.numberOfPunct4star').forEach(element => {
-            element.style.content = 'url(/fotoForProject/fourStar.svg)';
+            element.style.content = 'url(fotoForProject/fourStar.svg)';
           });
         document.getElementById('w1').style.fill="#B0947B";
         document.getElementById('w2').style.fill="#8C694F";
@@ -213,10 +213,10 @@ button4.addEventListener('click', function()
     if(j==3){
         document.getElementById('reviewSlider').style.left =  -document.getElementById('reviewSlider').offsetWidth/3*2+ 'px';
         document.querySelectorAll('.numberOfPunct5star').forEach(element => {
-          element.style.content = 'url(/fotoForProject/fiveStar.svg)';
+          element.style.content = 'url(fotoForProject/fiveStar.svg)';
         });
         document.querySelectorAll('.numberOfPunct4star').forEach(element => {
-          element.style.content = 'url(/fotoForProject/FIVEVITESTAR.svg)';
+          element.style.content = 'url(fotoForProject/FIVEVITESTAR.svg)';
         });
         document.getElementById('w1').style.fill="#B0947B";
         document.getElementById('w2').style.fill="#B0947B";
