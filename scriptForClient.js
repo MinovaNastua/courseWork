@@ -2,19 +2,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let login = document.getElementById('requestFrameButton');
     login.addEventListener('click', function() {
-        window.location.href ="/index.html";
+        window.location.href ="index.html";
     });
 
     let myPrFrameTub = document.getElementById('myPrFrameTub');
     myPrFrameTub.addEventListener('click', function() {
         
-        window.location.href ="/newProject.html";
+        window.location.href ="newProject.html";
     });
 
     let profileButton = document.getElementById('profileButton');
     profileButton.addEventListener('click', function() {
         
-        window.location.href ="/youProfile.html";
+        window.location.href ="youProfile.html";
     });
 
     let dropdownmenu = document.getElementById('dropdownmenuButton');
